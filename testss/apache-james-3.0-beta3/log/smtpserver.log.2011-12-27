@@ -1,0 +1,78 @@
+INFO  09:56:08,502 | james.smtpserver | SMTP Service bound to: 0.0.0.0:25
+INFO  09:56:08,502 | james.smtpserver | SMTP Service is running on: NIKKIPUNJAB51C5
+INFO  09:56:08,503 | james.smtpserver | SMTP Service handler hello name is: NIKKIPUNJAB51C5
+INFO  09:56:08,505 | james.smtpserver | SMTP Service handler connection timeout is: 360
+INFO  09:56:08,506 | james.smtpserver | SMTP Service connection backlog is: 200
+INFO  09:56:08,507 | james.smtpserver | This SMTP server requires authentication.
+INFO  09:56:08,507 | james.smtpserver | No maximum message size is enforced for this server.
+INFO  09:56:08,838 | james.smtpserver | Init SMTP Service done
+INFO  11:55:33,198 | james.smtpserver | ID=13618958 Connection established from 127.0.0.1 (127.0.0.1)
+INFO  11:55:33,312 | james.smtpserver | ID=13618958 Successfully spooled mail Mail1324967133223-0ba138ca-6677-4163-89ff-b75cbb84f8e7 from nikki@nikki.com on 127.0.0.1 for [nikki@nikki.com]
+INFO  11:55:33,356 | james.smtpserver | ID=13618958 Connection closed for 127.0.0.1 (127.0.0.1)
+INFO  11:56:36,697 | james.smtpserver | ID=15728280 Connection established from 127.0.0.1 (127.0.0.1)
+INFO  11:56:36,707 | james.smtpserver | ID=15728280 Successfully spooled mail Mail1324967196704-0e98cc4e-98b9-43e8-b879-2d523bf7af26 from nikki@nikki.com on 127.0.0.1 for [nikki@nikki.com]
+INFO  11:56:36,715 | james.smtpserver | ID=15728280 Connection closed for 127.0.0.1 (127.0.0.1)
+INFO  12:13:11,906 | james.smtpserver | ID=11753491 Connection established from 127.0.0.1 (127.0.0.1)
+INFO  12:13:12,918 | james.smtpserver | ID=11753491 Successfully spooled mail Mail1324968192916-2bf909d2-d1a2-4f60-8d64-fe72eefb645b from nikki@nikki.com on 127.0.0.1 for [nikki@nikki.com]
+INFO  12:13:12,959 | james.smtpserver | ID=11753491 Connection closed for 127.0.0.1 (127.0.0.1)
+INFO  12:19:28,998 | james.smtpserver | ID=7705606 Connection established from 127.0.0.1 (127.0.0.1)
+INFO  12:19:29,010 | james.smtpserver | ID=7705606 Successfully spooled mail Mail1324968569008-1ee1664f-178e-4a8c-861c-906a21e6f373 from nikki@nikki.com on 127.0.0.1 for [nikki@nikki.com]
+INFO  12:19:29,045 | james.smtpserver | ID=7705606 Connection closed for 127.0.0.1 (127.0.0.1)
+INFO  12:35:09,012 | james.smtpserver | ID=21625540 Connection established from 127.0.0.1 (127.0.0.1)
+INFO  12:35:09,025 | james.smtpserver | ID=21625540 Successfully spooled mail Mail1324969509021-258649b1-0c2c-4b31-aaf9-d022b717e679 from nikki@nikki.com on 127.0.0.1 for [nikki@nikki.com]
+INFO  12:35:09,060 | james.smtpserver | ID=21625540 Connection closed for 127.0.0.1 (127.0.0.1)
+INFO  12:56:01,968 | james.smtpserver | SMTP Service bound to: 0.0.0.0:25
+INFO  12:56:01,968 | james.smtpserver | SMTP Service is running on: NIKKIPUNJAB51C5
+INFO  12:56:01,968 | james.smtpserver | SMTP Service handler hello name is: NIKKIPUNJAB51C5
+INFO  12:56:01,968 | james.smtpserver | SMTP Service handler connection timeout is: 360
+INFO  12:56:01,968 | james.smtpserver | SMTP Service connection backlog is: 200
+INFO  12:56:01,968 | james.smtpserver | This SMTP server requires authentication.
+INFO  12:56:01,968 | james.smtpserver | No maximum message size is enforced for this server.
+INFO  12:56:02,281 | james.smtpserver | Init SMTP Service done
+INFO  13:16:03,266 | james.smtpserver | ID=24067047 Connection established from 127.0.0.1 (127.0.0.1)
+INFO  13:16:03,385 | james.smtpserver | ID=24067047 Successfully spooled mail Mail1324971963291-ba545497-e41a-444c-a8c8-3c97b1f1f283 from sunil@nikki.org on 127.0.0.1 for [sunil@nikki.org]
+INFO  13:16:03,428 | james.smtpserver | ID=24067047 Connection closed for 127.0.0.1 (127.0.0.1)
+INFO  13:24:30,211 | james.smtpserver | ID=12811892 Connection established from 127.0.0.1 (127.0.0.1)
+INFO  13:24:30,247 | james.smtpserver | ID=12811892 Successfully spooled mail Mail1324972470218-3b14f347-a8f6-49c9-8ee3-9002cbd48808 from sunil@nikki.org on 127.0.0.1 for [sunil@nikki.org]
+INFO  13:24:30,341 | james.smtpserver | ID=12811892 Connection closed for 127.0.0.1 (127.0.0.1)
+INFO  13:25:27,834 | james.smtpserver | ID=17520041 Connection established from 127.0.0.1 (127.0.0.1)
+INFO  13:25:27,834 | james.smtpserver | ID=17520041 Successfully spooled mail Mail1324972527834-ce504546-9bba-4f9a-b37f-38c5a042bbda from sunil@nikki.org on 127.0.0.1 for [sunil@nikki.org]
+INFO  13:25:27,862 | james.smtpserver | ID=17520041 Connection closed for 127.0.0.1 (127.0.0.1)
+INFO  13:26:46,943 | james.smtpserver | ID=27659526 Connection established from 127.0.0.1 (127.0.0.1)
+INFO  13:26:46,953 | james.smtpserver | ID=27659526 Successfully spooled mail Mail1324972606951-7a9daf10-9da4-42e5-829e-1375bb7b4c88 from sunil@nikki.org on 127.0.0.1 for [sunil@nikki.org]
+INFO  13:26:47,088 | james.smtpserver | ID=27659526 Connection closed for 127.0.0.1 (127.0.0.1)
+INFO  13:26:55,737 | james.smtpserver | ID=9911023 Connection established from 127.0.0.1 (127.0.0.1)
+INFO  13:26:55,744 | james.smtpserver | ID=9911023 Successfully spooled mail Mail1324972615742-7ec61dd9-6437-4daa-8177-1f7c00376a43 from sunil@nikki.org on 127.0.0.1 for [sunil@nikki.org]
+INFO  13:26:55,829 | james.smtpserver | ID=9911023 Connection closed for 127.0.0.1 (127.0.0.1)
+INFO  13:47:04,449 | james.smtpserver | ID=21371737 Connection established from 127.0.0.1 (127.0.0.1)
+INFO  13:47:04,458 | james.smtpserver | ID=21371737 Successfully spooled mail Mail1324973824458-162bee02-d9cb-4868-91ab-82d494f4b358 from sunil@nikki.org on 127.0.0.1 for [sunil@nikki.org]
+INFO  13:47:04,484 | james.smtpserver | ID=21371737 Connection closed for 127.0.0.1 (127.0.0.1)
+INFO  13:48:40,669 | james.smtpserver | ID=28691309 Connection established from 127.0.0.1 (127.0.0.1)
+INFO  13:48:40,677 | james.smtpserver | ID=28691309 Successfully spooled mail Mail1324973920675-7c114892-d41d-4374-8963-a889210d958e from sunil@nikki.org on 127.0.0.1 for [sunil@nikki.org]
+INFO  13:48:40,704 | james.smtpserver | ID=28691309 Connection closed for 127.0.0.1 (127.0.0.1)
+INFO  13:53:25,924 | james.smtpserver | ID=13383496 Connection established from 127.0.0.1 (127.0.0.1)
+INFO  13:53:25,934 | james.smtpserver | ID=13383496 Successfully spooled mail Mail1324974205933-29ec1e78-dfde-45f5-987a-4abec9ec5529 from sunil@nikki.org on 127.0.0.1 for [sunil@nikki.org]
+INFO  13:53:26,014 | james.smtpserver | ID=13383496 Connection closed for 127.0.0.1 (127.0.0.1)
+INFO  14:14:44,762 | james.smtpserver | ID=4166299 Connection established from 127.0.0.1 (127.0.0.1)
+INFO  14:14:44,775 | james.smtpserver | ID=4166299 Successfully spooled mail Mail1324975484773-d45aa6c1-1cd0-43d7-921c-66b1ee66877f from sunil@nikki.org on 127.0.0.1 for [sunil@nikki.org]
+INFO  14:14:44,809 | james.smtpserver | ID=4166299 Connection closed for 127.0.0.1 (127.0.0.1)
+INFO  14:51:17,098 | james.smtpserver | SMTP Service bound to: 0.0.0.0:25
+INFO  14:51:17,098 | james.smtpserver | SMTP Service is running on: NIKKIPUNJAB51C5
+INFO  14:51:17,098 | james.smtpserver | SMTP Service handler hello name is: NIKKIPUNJAB51C5
+INFO  14:51:17,098 | james.smtpserver | SMTP Service handler connection timeout is: 360
+INFO  14:51:17,098 | james.smtpserver | SMTP Service connection backlog is: 200
+INFO  14:51:17,098 | james.smtpserver | This SMTP server requires authentication.
+INFO  14:51:17,098 | james.smtpserver | No maximum message size is enforced for this server.
+INFO  14:51:17,458 | james.smtpserver | Init SMTP Service done
+INFO  14:57:35,783 | james.smtpserver | ID=18522450 Connection established from 127.0.0.1 (127.0.0.1)
+INFO  14:57:35,889 | james.smtpserver | ID=18522450 Successfully spooled mail Mail1324978055808-2e2e04ce-27f8-4ebd-9f1c-981fb04e6b64 from nikki@nikki.com on 127.0.0.1 for [nikki@nikki.com]
+INFO  14:57:35,981 | james.smtpserver | ID=18522450 Connection closed for 127.0.0.1 (127.0.0.1)
+INFO  15:00:11,769 | james.smtpserver | ID=27789732 Connection established from 127.0.0.1 (127.0.0.1)
+INFO  15:00:11,780 | james.smtpserver | ID=27789732 Successfully spooled mail Mail1324978211778-fc1cb3fe-992e-4c85-9b0b-39d022203222 from nikki@nikki.com on 127.0.0.1 for [sunil@nikki.org]
+INFO  15:00:11,818 | james.smtpserver | ID=27789732 Connection closed for 127.0.0.1 (127.0.0.1)
+INFO  15:00:43,207 | james.smtpserver | ID=18699429 Connection established from 127.0.0.1 (127.0.0.1)
+INFO  15:00:43,234 | james.smtpserver | ID=18699429 Successfully spooled mail Mail1324978243208-77355c23-e107-4c56-9517-8e1d0b1ed8ce from sunil@nikki.org on 127.0.0.1 for [nikki@nikki.com]
+INFO  15:00:43,258 | james.smtpserver | ID=18699429 Connection closed for 127.0.0.1 (127.0.0.1)
+INFO  15:01:00,849 | james.smtpserver | ID=9267319 Connection established from 127.0.0.1 (127.0.0.1)
+INFO  15:01:00,859 | james.smtpserver | ID=9267319 Successfully spooled mail Mail1324978260857-5aa845d5-fc70-4be6-9ea6-0d78566dc8f2 from sunil@nikki.org on 127.0.0.1 for [nikki@nikki.com]
+INFO  15:01:00,873 | james.smtpserver | ID=9267319 Connection closed for 127.0.0.1 (127.0.0.1)

@@ -1,0 +1,18 @@
+INFO  09:25:44,567 | james.dnsservice | Autodiscovery is enabled - trying to discover your system's DNS Servers
+INFO  09:25:44,589 | james.dnsservice | Adding autodiscovered server 8.8.8.8
+INFO  09:25:44,589 | james.dnsservice | Adding autodiscovered server 113.20.19.45
+INFO  09:25:44,591 | james.dnsservice | DNS Server is: 8.8.8.8
+INFO  09:25:44,592 | james.dnsservice | DNS Server is: 113.20.19.45
+INFO  09:25:44,617 | james.dnsservice | Registered cache, resolver and search paths as DNSJava defaults
+INFO  11:29:53,490 | james.dnsservice | Autodiscovery is enabled - trying to discover your system's DNS Servers
+INFO  11:29:53,507 | james.dnsservice | Adding autodiscovered server 8.8.8.8
+INFO  11:29:53,507 | james.dnsservice | Adding autodiscovered server 4.2.2.2
+INFO  11:29:53,508 | james.dnsservice | DNS Server is: 8.8.8.8
+INFO  11:29:53,508 | james.dnsservice | DNS Server is: 4.2.2.2
+INFO  11:29:53,519 | james.dnsservice | Registered cache, resolver and search paths as DNSJava defaults
+INFO  19:53:11,437 | james.dnsservice | Autodiscovery is enabled - trying to discover your system's DNS Servers
+INFO  19:53:11,453 | james.dnsservice | Adding autodiscovered server 8.8.8.8
+INFO  19:53:11,453 | james.dnsservice | Adding autodiscovered server 4.2.2.2
+INFO  19:53:11,453 | james.dnsservice | DNS Server is: 8.8.8.8
+INFO  19:53:11,453 | james.dnsservice | DNS Server is: 4.2.2.2
+INFO  19:53:11,468 | james.dnsservice | Registered cache, resolver and search paths as DNSJava defaults

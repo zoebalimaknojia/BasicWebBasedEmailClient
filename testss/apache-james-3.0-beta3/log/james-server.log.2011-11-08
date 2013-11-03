@@ -1,0 +1,574 @@
+INFO  08:30:18,100 | org.apache.james.container.spring.context.JamesServerApplicationContext | Refreshing org.apache.james.container.spring.context.JamesServerApplicationContext@11121f6: startup date [Tue Nov 08 08:30:18 IST 2011]; root of context hierarchy
+INFO  08:30:51,669 | org.apache.james.container.spring.context.JamesServerApplicationContext | Bean 'logprovider' of type [class org.apache.james.container.spring.lifecycle.LogProviderImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO  08:30:52,797 | james.mailrepositorystore | JamesMailStore init...
+INFO  08:30:52,830 | james.mailrepositorystore | Registering Repository instance of class org.apache.james.mailrepository.file.FileMailRepository to handle file protocol requests for repositories with key file
+INFO  08:30:52,831 | james.mailrepositorystore | Registering Repository instance of class org.apache.james.mailrepository.jdbc.JDBCMailRepository to handle db protocol requests for repositories with key db
+INFO  08:30:52,833 | james.mailrepositorystore | Registering Repository instance of class org.apache.james.mailrepository.jdbc.JDBCMailRepository to handle dbfile protocol requests for repositories with key dbfile
+INFO  08:30:52,836 | james.mailrepositorystore | Registering Repository instance of class org.apache.james.mailrepository.file.MBoxMailRepository to handle mbox protocol requests for repositories with key mbox
+WARN  08:30:53,733 | org.apache.activemq.store.amq.AMQPersistenceAdapter | The ReferenceStore is not valid - recovering ...
+INFO  08:30:54,515 | james.dnsservice | Autodiscovery is enabled - trying to discover your system's DNS Servers
+INFO  08:30:54,563 | james.dnsservice | Adding autodiscovered server 8.8.8.8
+INFO  08:30:54,565 | james.dnsservice | Adding autodiscovered server 113.20.19.45
+INFO  08:30:54,571 | james.dnsservice | DNS Server is: 8.8.8.8
+INFO  08:30:54,573 | james.dnsservice | DNS Server is: 113.20.19.45
+INFO  08:30:54,616 | james.dnsservice | Registered cache, resolver and search paths as DNSJava defaults
+INFO  08:30:55,226 | james.domainlist | Set autodetect to: true
+INFO  08:30:55,253 | james.domainlist | Set autodetectIP to: true
+WARN  08:30:58,163 | james.mailetcontext | The specified postmaster address ( postmaster@localhost ) is not a local address.  This is not necessarily a problem, but it does mean that emails addressed to the postmaster will be routed to another server.  For some configurations this may cause problems.
+INFO  08:30:58,421 | james.mailprocessor | Matcher All instantiated.
+INFO  08:30:58,453 | james.mailprocessor | Mailet PostmasterAlias instantiated.
+INFO  08:30:58,456 | james.mailprocessor | Matcher RelayLimit=30 instantiated.
+INFO  08:30:58,459 | james.mailprocessor | Mailet Null instantiated.
+INFO  08:30:58,462 | james.mailprocessor | Matcher SMTPAuthSuccessful instantiated.
+INFO  08:30:58,466 | james.mailprocessor | Mailet ToProcessor instantiated.
+INFO  08:30:58,469 | james.mailprocessor | Matcher InSpammerBlacklist=dnsbl.njabl.org. instantiated.
+INFO  08:30:58,471 | james.mailprocessor | Mailet ToProcessor instantiated.
+INFO  08:30:58,472 | james.mailprocessor | Matcher All instantiated.
+INFO  08:30:58,473 | james.mailprocessor | Mailet ToProcessor instantiated.
+INFO  08:30:58,774 | james.mailprocessor | Matcher SMTPAuthSuccessful instantiated.
+INFO  08:30:58,776 | james.mailprocessor | Mailet SetMimeHeader instantiated.
+INFO  08:30:58,776 | james.mailprocessor | Matcher All instantiated.
+INFO  08:30:58,808 | james.mailprocessor | Mailet RecipientRewriteTable instantiated.
+INFO  08:30:58,812 | james.mailprocessor | Matcher RecipientIsLocal instantiated.
+INFO  08:30:58,815 | james.mailprocessor | Mailet RecipientToLowerCase instantiated.
+INFO  08:30:58,817 | james.mailprocessor | Matcher RecipientIsLocal instantiated.
+INFO  08:30:58,920 | james.mailprocessor | Mailet LocalDelivery instantiated.
+INFO  08:30:58,923 | james.mailprocessor | Matcher HostIsLocal instantiated.
+INFO  08:30:58,924 | james.mailprocessor | Mailet ToProcessor instantiated.
+INFO  08:30:58,925 | james.mailprocessor | Matcher All instantiated.
+INFO  08:30:58,939 | james.mailetcontext | maxRetries is larger than total number of attempts specified.  Increasing last delayTime with 19 attempts 
+INFO  08:30:58,941 | james.mailetcontext | Delay of 21600000 msecs is now attempted: 20 times
+INFO  08:30:58,949 | james.mailprocessor | Mailet RemoteDelivery instantiated.
+INFO  08:30:59,155 | james.mailprocessor | Matcher All instantiated.
+INFO  08:30:59,173 | james.mailrepositorystore | Init org.apache.james.repository.file.FilePersistentObjectRepository Store
+INFO  08:30:59,193 | james.mailrepositorystore | org.apache.james.repository.file.FilePersistentObjectRepository opened in ..\var\mail\error
+INFO  08:30:59,195 | james.mailrepositorystore | Init org.apache.james.repository.file.FilePersistentStreamRepository Store
+INFO  08:30:59,196 | james.mailrepositorystore | org.apache.james.repository.file.FilePersistentStreamRepository opened in ..\var\mail\error
+INFO  08:30:59,198 | james.mailrepositorystore | added repository: file://var/mail/error/->org.apache.james.mailrepository.file.FileMailRepository
+INFO  08:30:59,199 | james.mailprocessor | Mailet ToRepository instantiated.
+INFO  08:30:59,246 | james.mailprocessor | Matcher All instantiated.
+INFO  08:30:59,247 | james.mailrepositorystore | Init org.apache.james.repository.file.FilePersistentObjectRepository Store
+INFO  08:30:59,249 | james.mailrepositorystore | org.apache.james.repository.file.FilePersistentObjectRepository opened in ..\var\mail\spam
+INFO  08:30:59,251 | james.mailrepositorystore | Init org.apache.james.repository.file.FilePersistentStreamRepository Store
+INFO  08:30:59,252 | james.mailrepositorystore | org.apache.james.repository.file.FilePersistentStreamRepository opened in ..\var\mail\spam
+INFO  08:30:59,253 | james.mailrepositorystore | added repository: file://var/mail/spam/->org.apache.james.mailrepository.file.FileMailRepository
+INFO  08:30:59,255 | james.mailprocessor | Mailet ToRepository instantiated.
+INFO  08:30:59,303 | james.mailprocessor | Matcher All instantiated.
+INFO  08:30:59,305 | james.mailrepositorystore | Init org.apache.james.repository.file.FilePersistentObjectRepository Store
+INFO  08:30:59,306 | james.mailrepositorystore | org.apache.james.repository.file.FilePersistentObjectRepository opened in ..\var\mail\address-error
+INFO  08:30:59,308 | james.mailrepositorystore | Init org.apache.james.repository.file.FilePersistentStreamRepository Store
+INFO  08:30:59,309 | james.mailrepositorystore | org.apache.james.repository.file.FilePersistentStreamRepository opened in ..\var\mail\address-error
+INFO  08:30:59,311 | james.mailrepositorystore | added repository: file://var/mail/address-error/->org.apache.james.mailrepository.file.FileMailRepository
+INFO  08:30:59,312 | james.mailprocessor | Mailet ToRepository instantiated.
+INFO  08:30:59,357 | james.mailprocessor | Matcher All instantiated.
+INFO  08:30:59,359 | james.mailrepositorystore | Init org.apache.james.repository.file.FilePersistentObjectRepository Store
+INFO  08:30:59,361 | james.mailrepositorystore | org.apache.james.repository.file.FilePersistentObjectRepository opened in ..\var\mail\relay-denied
+INFO  08:30:59,362 | james.mailrepositorystore | Init org.apache.james.repository.file.FilePersistentStreamRepository Store
+INFO  08:30:59,363 | james.mailrepositorystore | org.apache.james.repository.file.FilePersistentStreamRepository opened in ..\var\mail\relay-denied
+INFO  08:30:59,365 | james.mailrepositorystore | added repository: file://var/mail/relay-denied/->org.apache.james.mailrepository.file.FileMailRepository
+INFO  08:30:59,366 | james.mailprocessor | Mailet ToRepository instantiated.
+INFO  08:30:59,411 | james.mailprocessor | Matcher All instantiated.
+INFO  08:30:59,454 | james.mailprocessor | Mailet DSNBounce instantiated.
+INFO  08:30:59,504 | james.mailspooler | org.apache.james.mailetcontainer.impl.JamesMailSpooler init...
+INFO  08:30:59,506 | james.mailspooler | org.apache.james.mailetcontainer.impl.JamesMailSpooler uses 20 Thread(s)
+INFO  08:30:59,510 | james.mailspooler | Run org.apache.james.mailetcontainer.impl.JamesMailSpooler: dequeuer-1
+INFO  08:30:59,510 | james.mailspooler | Run org.apache.james.mailetcontainer.impl.JamesMailSpooler: dequeuer-2
+INFO  08:30:59,511 | james.mailspooler | Queue=MailQueue:spool
+INFO  08:30:59,512 | james.mailspooler | Queue=MailQueue:spool
+INFO  08:30:59,519 | james.fetchmail | FetchMail Disabled
+INFO  08:30:59,647 | james.smtpserver | SMTP Service bound to: 0.0.0.0:25
+INFO  08:30:59,649 | james.smtpserver | SMTP Service is running on: chandapunjabi
+INFO  08:30:59,651 | james.smtpserver | SMTP Service handler hello name is: chandapunjabi
+INFO  08:30:59,652 | james.smtpserver | SMTP Service handler connection timeout is: 360
+INFO  08:30:59,654 | james.smtpserver | SMTP Service connection backlog is: 200
+INFO  08:30:59,655 | james.smtpserver | This SMTP server requires authentication.
+INFO  08:30:59,656 | james.smtpserver | No maximum message size is enforced for this server.
+INFO  08:31:00,085 | james.smtpserver | Init SMTP Service done
+INFO  08:31:00,107 | james.lmtpserver | LMTP Service disabled by configuration
+INFO  08:31:00,160 | james.pop3server | POP3 Service bound to: 0.0.0.0:110
+INFO  08:31:00,163 | james.pop3server | POP3 Service is running on: chandapunjabi
+INFO  08:31:00,165 | james.pop3server | POP3 Service handler hello name is: chandapunjabi
+INFO  08:31:00,167 | james.pop3server | POP3 Service handler connection timeout is: 1200
+INFO  08:31:00,169 | james.pop3server | POP3 Service connection backlog is: 200
+INFO  08:31:00,232 | james.pop3server | Init POP3 Service done
+INFO  08:31:00,344 | james.imapserver | IMAP Service bound to: 0.0.0.0:143
+INFO  08:31:00,346 | james.imapserver | IMAP Service is running on: chandapunjabi
+INFO  08:31:00,347 | james.imapserver | IMAP Service handler hello name is: chandapunjabi
+INFO  08:31:00,348 | james.imapserver | IMAP Service handler connection timeout is: 300
+INFO  08:31:00,349 | james.imapserver | IMAP Service connection backlog is: 200
+INFO  08:31:00,367 | james.imapserver | Init IMAP Service done
+INFO  08:31:01,670 | org.apache.james.container.spring.Main | Apache James Server is successfully started in 44081 milliseconds.
+INFO  08:33:59,381 | james.imapserver | ID=5493403 Connection established from activate.adobe.com (127.0.0.1)
+INFO  08:34:29,527 | james.smtpserver | ID=15293539 Connection established from activate.adobe.com (127.0.0.1)
+INFO  08:34:29,654 | james.smtpserver | ID=15293539 Successfully spooled mail Mail1320721469578-e0f08c58-ec26-4169-ba89-64be366bcc2c from nikki@nikki.com on 127.0.0.1 for [sunil@nikki.org]
+INFO  08:34:29,702 | james.smtpserver | ID=15293539 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  08:34:29,702 | james.imapserver | ID=1504362 Connection established from activate.adobe.com (127.0.0.1)
+INFO  08:34:31,530 | james.mailetcontext | Local delivered mail Mail1320721469578-e0f08c58-ec26-4169-ba89-64be366bcc2c sucessfully from nikki@nikki.com to sunil@nikki.org
+INFO  08:34:51,737 | james.imapserver | ID=14745940 Connection established from activate.adobe.com (127.0.0.1)
+INFO  08:34:53,696 | james.imapserver | ID=18536332 Connection established from activate.adobe.com (127.0.0.1)
+WARN  08:34:53,788 | org.apache.james.mime4j.parser.MimeEntity | Invalid header encountered
+WARN  08:34:53,893 | org.apache.james.mime4j.parser.MimeEntity | Unexpected end of headers detected. Higher level boundary detected or EOF reached.
+WARN  08:34:53,894 | org.apache.james.mime4j.parser.MimeEntity | Invalid header encountered
+WARN  08:34:53,895 | org.apache.james.mime4j.parser.MimeEntity | Body part ended prematurely. Boundary detected in header or EOF reached.
+WARN  08:34:53,908 | org.apache.james.mime4j.parser.MimeEntity | Unexpected end of headers detected. Higher level boundary detected or EOF reached.
+WARN  08:34:53,910 | org.apache.james.mime4j.parser.MimeEntity | Invalid header encountered
+WARN  08:34:53,911 | org.apache.james.mime4j.parser.MimeEntity | Body part ended prematurely. Boundary detected in header or EOF reached.
+INFO  08:35:29,284 | james.imapserver | ID=5493403 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  08:35:29,284 | james.imapserver | ID=18536332 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  08:35:29,296 | james.imapserver | ID=1504362 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  08:35:29,346 | james.imapserver | ID=20745137 Connection established from activate.adobe.com (127.0.0.1)
+INFO  08:35:31,735 | james.imapserver | ID=21206293 Connection established from activate.adobe.com (127.0.0.1)
+INFO  08:35:33,084 | james.imapserver | ID=21206293 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  08:35:33,095 | james.imapserver | ID=20745137 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  08:35:36,456 | james.imapserver | ID=29862723 Connection established from activate.adobe.com (127.0.0.1)
+INFO  08:35:49,566 | james.imapserver | ID=11591678 Connection established from activate.adobe.com (127.0.0.1)
+WARN  08:35:49,648 | org.apache.james.mime4j.parser.MimeEntity | Invalid header encountered
+WARN  08:35:49,709 | org.apache.james.mime4j.parser.MimeEntity | Unexpected end of headers detected. Higher level boundary detected or EOF reached.
+WARN  08:35:49,709 | org.apache.james.mime4j.parser.MimeEntity | Invalid header encountered
+WARN  08:35:49,710 | org.apache.james.mime4j.parser.MimeEntity | Body part ended prematurely. Boundary detected in header or EOF reached.
+WARN  08:35:49,716 | org.apache.james.mime4j.parser.MimeEntity | Unexpected end of headers detected. Higher level boundary detected or EOF reached.
+WARN  08:35:49,717 | org.apache.james.mime4j.parser.MimeEntity | Invalid header encountered
+WARN  08:35:49,717 | org.apache.james.mime4j.parser.MimeEntity | Body part ended prematurely. Boundary detected in header or EOF reached.
+INFO  08:35:50,202 | james.imapserver | ID=31392160 Connection established from activate.adobe.com (127.0.0.1)
+INFO  08:35:51,006 | james.imapserver | ID=31893536 Connection established from activate.adobe.com (127.0.0.1)
+INFO  08:35:51,119 | james.imapserver | ID=31893536 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  08:41:08,476 | james.domainlist | Local host is: 172.41.1.21
+INFO  08:42:39,498 | james.imapserver | ID=29856072 Connection established from activate.adobe.com (127.0.0.1)
+WARN  08:42:39,520 | org.apache.james.mime4j.parser.MimeEntity | Invalid header encountered
+WARN  08:42:39,568 | org.apache.james.mime4j.parser.MimeEntity | Unexpected end of headers detected. Higher level boundary detected or EOF reached.
+WARN  08:42:39,569 | org.apache.james.mime4j.parser.MimeEntity | Invalid header encountered
+WARN  08:42:39,569 | org.apache.james.mime4j.parser.MimeEntity | Body part ended prematurely. Boundary detected in header or EOF reached.
+WARN  08:42:39,575 | org.apache.james.mime4j.parser.MimeEntity | Unexpected end of headers detected. Higher level boundary detected or EOF reached.
+WARN  08:42:39,575 | org.apache.james.mime4j.parser.MimeEntity | Invalid header encountered
+WARN  08:42:39,576 | org.apache.james.mime4j.parser.MimeEntity | Body part ended prematurely. Boundary detected in header or EOF reached.
+INFO  08:42:41,225 | james.imapserver | ID=29856072 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  08:50:47,312 | james.imapserver | ID=29485385 Connection established from activate.adobe.com (127.0.0.1)
+INFO  08:51:06,787 | james.imapserver | ID=10590898 Connection established from activate.adobe.com (127.0.0.1)
+INFO  08:51:24,936 | james.imapserver | ID=1094018 Connection established from activate.adobe.com (127.0.0.1)
+INFO  08:51:32,884 | james.imapserver | ID=28414404 Connection established from activate.adobe.com (127.0.0.1)
+INFO  08:52:27,833 | james.imapserver | ID=25543076 Connection established from activate.adobe.com (127.0.0.1)
+INFO  08:52:27,928 | james.imapserver | ID=23676628 Connection established from activate.adobe.com (127.0.0.1)
+INFO  08:52:37,298 | james.imapserver | ID=29361740 Connection established from activate.adobe.com (127.0.0.1)
+INFO  08:52:37,389 | james.imapserver | ID=27562262 Connection established from activate.adobe.com (127.0.0.1)
+INFO  08:55:13,217 | james.imapserver | ID=5178564 Connection established from activate.adobe.com (127.0.0.1)
+INFO  08:55:13,335 | james.imapserver | ID=29862723 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  08:55:13,336 | james.imapserver | ID=27562262 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  08:55:13,336 | james.imapserver | ID=29361740 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  08:55:13,336 | james.imapserver | ID=25543076 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  08:55:13,336 | james.imapserver | ID=23676628 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  08:55:13,337 | james.imapserver | ID=14745940 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  08:55:13,337 | james.imapserver | ID=11591678 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  08:55:13,337 | james.imapserver | ID=31392160 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  08:55:13,371 | james.imapserver | ID=19785116 Connection established from activate.adobe.com (127.0.0.1)
+INFO  08:56:45,962 | james.imapserver | ID=28837804 Connection established from activate.adobe.com (127.0.0.1)
+INFO  08:56:46,052 | james.imapserver | ID=22288191 Connection established from activate.adobe.com (127.0.0.1)
+INFO  08:57:59,041 | james.imapserver | ID=17199263 Connection established from activate.adobe.com (127.0.0.1)
+INFO  08:57:59,123 | james.imapserver | ID=18263044 Connection established from activate.adobe.com (127.0.0.1)
+INFO  08:58:27,099 | james.imapserver | ID=32090215 Connection established from activate.adobe.com (127.0.0.1)
+INFO  08:58:27,179 | james.imapserver | ID=22251464 Connection established from activate.adobe.com (127.0.0.1)
+INFO  08:58:48,490 | james.imapserver | ID=30926327 Connection established from activate.adobe.com (127.0.0.1)
+INFO  08:58:48,573 | james.imapserver | ID=1195814 Connection established from activate.adobe.com (127.0.0.1)
+INFO  08:58:59,558 | james.imapserver | ID=30277746 Connection established from activate.adobe.com (127.0.0.1)
+INFO  08:58:59,641 | james.imapserver | ID=22846326 Connection established from activate.adobe.com (127.0.0.1)
+INFO  09:03:51,825 | james.imapserver | ID=33281259 Connection established from activate.adobe.com (127.0.0.1)
+INFO  09:03:51,909 | james.imapserver | ID=14000641 Connection established from activate.adobe.com (127.0.0.1)
+INFO  09:04:43,431 | james.imapserver | ID=398690 Connection established from activate.adobe.com (127.0.0.1)
+WARN  09:04:43,453 | org.apache.james.mime4j.parser.MimeEntity | Invalid header encountered
+WARN  09:04:43,504 | org.apache.james.mime4j.parser.MimeEntity | Unexpected end of headers detected. Higher level boundary detected or EOF reached.
+WARN  09:04:43,505 | org.apache.james.mime4j.parser.MimeEntity | Invalid header encountered
+WARN  09:04:43,505 | org.apache.james.mime4j.parser.MimeEntity | Body part ended prematurely. Boundary detected in header or EOF reached.
+WARN  09:04:43,511 | org.apache.james.mime4j.parser.MimeEntity | Unexpected end of headers detected. Higher level boundary detected or EOF reached.
+WARN  09:04:43,511 | org.apache.james.mime4j.parser.MimeEntity | Invalid header encountered
+WARN  09:04:43,511 | org.apache.james.mime4j.parser.MimeEntity | Body part ended prematurely. Boundary detected in header or EOF reached.
+INFO  09:06:07,098 | james.imapserver | ID=3812099 Connection established from activate.adobe.com (127.0.0.1)
+INFO  09:06:07,123 | james.imapserver | ID=398690 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  09:06:07,181 | james.imapserver | ID=23304757 Connection established from activate.adobe.com (127.0.0.1)
+INFO  09:06:32,257 | james.imapserver | ID=20588656 Connection established from activate.adobe.com (127.0.0.1)
+INFO  09:06:32,391 | james.imapserver | ID=19785116 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  09:06:32,392 | james.imapserver | ID=30277746 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  09:06:32,392 | james.imapserver | ID=22846326 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  09:06:32,392 | james.imapserver | ID=33281259 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  09:06:32,391 | james.imapserver | ID=3812099 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  09:06:32,391 | james.imapserver | ID=14000641 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  09:06:32,391 | james.imapserver | ID=23304757 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  09:06:32,393 | james.imapserver | ID=5178564 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  09:06:32,393 | james.imapserver | ID=17199263 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  09:06:32,393 | james.imapserver | ID=28837804 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  09:06:32,393 | james.imapserver | ID=22288191 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  09:06:32,392 | james.imapserver | ID=18263044 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  09:06:32,392 | james.imapserver | ID=32090215 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  09:06:32,392 | james.imapserver | ID=22251464 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  09:06:32,392 | james.imapserver | ID=30926327 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  09:06:32,392 | james.imapserver | ID=1195814 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  09:06:32,405 | james.imapserver | ID=32326406 Connection established from activate.adobe.com (127.0.0.1)
+INFO  09:13:49,365 | james.imapserver | ID=19994027 Connection established from activate.adobe.com (127.0.0.1)
+INFO  09:13:49,449 | james.imapserver | ID=8595508 Connection established from activate.adobe.com (127.0.0.1)
+INFO  09:14:15,538 | james.imapserver | ID=18605095 Connection established from activate.adobe.com (127.0.0.1)
+INFO  09:14:15,622 | james.imapserver | ID=28433306 Connection established from activate.adobe.com (127.0.0.1)
+INFO  09:14:24,346 | james.imapserver | ID=14632861 Connection established from activate.adobe.com (127.0.0.1)
+INFO  09:14:24,431 | james.imapserver | ID=27261885 Connection established from activate.adobe.com (127.0.0.1)
+INFO  09:14:32,274 | james.imapserver | ID=23801900 Connection established from activate.adobe.com (127.0.0.1)
+INFO  09:14:32,358 | james.imapserver | ID=31005098 Connection established from activate.adobe.com (127.0.0.1)
+INFO  09:15:44,019 | james.imapserver | ID=17521560 Connection established from activate.adobe.com (127.0.0.1)
+INFO  09:15:44,103 | james.imapserver | ID=21725314 Connection established from activate.adobe.com (127.0.0.1)
+INFO  09:15:52,603 | james.imapserver | ID=3250652 Connection established from activate.adobe.com (127.0.0.1)
+INFO  09:15:52,652 | james.imapserver | ID=18783200 Connection established from activate.adobe.com (127.0.0.1)
+INFO  09:15:53,890 | james.imapserver | ID=31290473 Connection established from activate.adobe.com (127.0.0.1)
+WARN  09:15:53,933 | org.apache.james.mime4j.parser.MimeEntity | Invalid header encountered
+WARN  09:15:53,968 | org.apache.james.mime4j.parser.MimeEntity | Unexpected end of headers detected. Higher level boundary detected or EOF reached.
+WARN  09:15:53,968 | org.apache.james.mime4j.parser.MimeEntity | Invalid header encountered
+WARN  09:15:53,968 | org.apache.james.mime4j.parser.MimeEntity | Body part ended prematurely. Boundary detected in header or EOF reached.
+WARN  09:15:53,980 | org.apache.james.mime4j.parser.MimeEntity | Unexpected end of headers detected. Higher level boundary detected or EOF reached.
+WARN  09:15:53,981 | org.apache.james.mime4j.parser.MimeEntity | Invalid header encountered
+WARN  09:15:53,981 | org.apache.james.mime4j.parser.MimeEntity | Body part ended prematurely. Boundary detected in header or EOF reached.
+WARN  09:15:54,017 | org.apache.james.mime4j.parser.MimeEntity | Unexpected end of headers detected. Higher level boundary detected or EOF reached.
+WARN  09:15:54,017 | org.apache.james.mime4j.parser.MimeEntity | Invalid header encountered
+WARN  09:15:54,017 | org.apache.james.mime4j.parser.MimeEntity | Body part ended prematurely. Boundary detected in header or EOF reached.
+WARN  09:15:54,023 | org.apache.james.mime4j.parser.MimeEntity | Unexpected end of headers detected. Higher level boundary detected or EOF reached.
+WARN  09:15:54,024 | org.apache.james.mime4j.parser.MimeEntity | Invalid header encountered
+WARN  09:15:54,024 | org.apache.james.mime4j.parser.MimeEntity | Body part ended prematurely. Boundary detected in header or EOF reached.
+WARN  09:15:54,030 | org.apache.james.mime4j.parser.MimeEntity | Unexpected end of headers detected. Higher level boundary detected or EOF reached.
+WARN  09:15:54,030 | org.apache.james.mime4j.parser.MimeEntity | Invalid header encountered
+WARN  09:15:54,031 | org.apache.james.mime4j.parser.MimeEntity | Body part ended prematurely. Boundary detected in header or EOF reached.
+WARN  09:15:54,037 | org.apache.james.mime4j.parser.MimeEntity | Unexpected end of headers detected. Higher level boundary detected or EOF reached.
+WARN  09:15:54,037 | org.apache.james.mime4j.parser.MimeEntity | Invalid header encountered
+WARN  09:15:54,037 | org.apache.james.mime4j.parser.MimeEntity | Body part ended prematurely. Boundary detected in header or EOF reached.
+WARN  09:15:54,043 | org.apache.james.mime4j.parser.MimeEntity | Unexpected end of headers detected. Higher level boundary detected or EOF reached.
+WARN  09:15:54,043 | org.apache.james.mime4j.parser.MimeEntity | Invalid header encountered
+WARN  09:15:54,043 | org.apache.james.mime4j.parser.MimeEntity | Body part ended prematurely. Boundary detected in header or EOF reached.
+WARN  09:15:54,049 | org.apache.james.mime4j.parser.MimeEntity | Unexpected end of headers detected. Higher level boundary detected or EOF reached.
+WARN  09:15:54,050 | org.apache.james.mime4j.parser.MimeEntity | Invalid header encountered
+WARN  09:15:54,050 | org.apache.james.mime4j.parser.MimeEntity | Body part ended prematurely. Boundary detected in header or EOF reached.
+WARN  09:15:54,056 | org.apache.james.mime4j.parser.MimeEntity | Unexpected end of headers detected. Higher level boundary detected or EOF reached.
+WARN  09:15:54,056 | org.apache.james.mime4j.parser.MimeEntity | Invalid header encountered
+WARN  09:15:54,056 | org.apache.james.mime4j.parser.MimeEntity | Body part ended prematurely. Boundary detected in header or EOF reached.
+WARN  09:15:54,062 | org.apache.james.mime4j.parser.MimeEntity | Unexpected end of headers detected. Higher level boundary detected or EOF reached.
+WARN  09:15:54,063 | org.apache.james.mime4j.parser.MimeEntity | Invalid header encountered
+WARN  09:15:54,063 | org.apache.james.mime4j.parser.MimeEntity | Body part ended prematurely. Boundary detected in header or EOF reached.
+WARN  09:15:54,069 | org.apache.james.mime4j.parser.MimeEntity | Unexpected end of headers detected. Higher level boundary detected or EOF reached.
+WARN  09:15:54,069 | org.apache.james.mime4j.parser.MimeEntity | Invalid header encountered
+WARN  09:15:54,069 | org.apache.james.mime4j.parser.MimeEntity | Body part ended prematurely. Boundary detected in header or EOF reached.
+WARN  09:15:54,079 | org.apache.james.mime4j.parser.MimeEntity | Unexpected end of headers detected. Higher level boundary detected or EOF reached.
+WARN  09:15:54,079 | org.apache.james.mime4j.parser.MimeEntity | Invalid header encountered
+WARN  09:15:54,079 | org.apache.james.mime4j.parser.MimeEntity | Body part ended prematurely. Boundary detected in header or EOF reached.
+WARN  09:15:54,085 | org.apache.james.mime4j.parser.MimeEntity | Unexpected end of headers detected. Higher level boundary detected or EOF reached.
+WARN  09:15:54,085 | org.apache.james.mime4j.parser.MimeEntity | Invalid header encountered
+WARN  09:15:54,085 | org.apache.james.mime4j.parser.MimeEntity | Body part ended prematurely. Boundary detected in header or EOF reached.
+WARN  09:15:54,091 | org.apache.james.mime4j.parser.MimeEntity | Unexpected end of headers detected. Higher level boundary detected or EOF reached.
+WARN  09:15:54,092 | org.apache.james.mime4j.parser.MimeEntity | Invalid header encountered
+WARN  09:15:54,092 | org.apache.james.mime4j.parser.MimeEntity | Body part ended prematurely. Boundary detected in header or EOF reached.
+WARN  09:15:54,098 | org.apache.james.mime4j.parser.MimeEntity | Unexpected end of headers detected. Higher level boundary detected or EOF reached.
+WARN  09:15:54,098 | org.apache.james.mime4j.parser.MimeEntity | Invalid header encountered
+WARN  09:15:54,098 | org.apache.james.mime4j.parser.MimeEntity | Body part ended prematurely. Boundary detected in header or EOF reached.
+WARN  09:15:54,104 | org.apache.james.mime4j.parser.MimeEntity | Unexpected end of headers detected. Higher level boundary detected or EOF reached.
+WARN  09:15:54,104 | org.apache.james.mime4j.parser.MimeEntity | Invalid header encountered
+WARN  09:15:54,105 | org.apache.james.mime4j.parser.MimeEntity | Body part ended prematurely. Boundary detected in header or EOF reached.
+WARN  09:15:54,111 | org.apache.james.mime4j.parser.MimeEntity | Unexpected end of headers detected. Higher level boundary detected or EOF reached.
+WARN  09:15:54,111 | org.apache.james.mime4j.parser.MimeEntity | Invalid header encountered
+WARN  09:15:54,112 | org.apache.james.mime4j.parser.MimeEntity | Body part ended prematurely. Boundary detected in header or EOF reached.
+WARN  09:15:54,118 | org.apache.james.mime4j.parser.MimeEntity | Unexpected end of headers detected. Higher level boundary detected or EOF reached.
+WARN  09:15:54,118 | org.apache.james.mime4j.parser.MimeEntity | Invalid header encountered
+WARN  09:15:54,118 | org.apache.james.mime4j.parser.MimeEntity | Body part ended prematurely. Boundary detected in header or EOF reached.
+WARN  09:15:54,124 | org.apache.james.mime4j.parser.MimeEntity | Unexpected end of headers detected. Higher level boundary detected or EOF reached.
+WARN  09:15:54,124 | org.apache.james.mime4j.parser.MimeEntity | Invalid header encountered
+WARN  09:15:54,124 | org.apache.james.mime4j.parser.MimeEntity | Body part ended prematurely. Boundary detected in header or EOF reached.
+WARN  09:15:54,130 | org.apache.james.mime4j.parser.MimeEntity | Unexpected end of headers detected. Higher level boundary detected or EOF reached.
+WARN  09:15:54,130 | org.apache.james.mime4j.parser.MimeEntity | Invalid header encountered
+WARN  09:15:54,130 | org.apache.james.mime4j.parser.MimeEntity | Body part ended prematurely. Boundary detected in header or EOF reached.
+WARN  09:15:54,137 | org.apache.james.mime4j.parser.MimeEntity | Unexpected end of headers detected. Higher level boundary detected or EOF reached.
+WARN  09:15:54,137 | org.apache.james.mime4j.parser.MimeEntity | Invalid header encountered
+WARN  09:15:54,137 | org.apache.james.mime4j.parser.MimeEntity | Body part ended prematurely. Boundary detected in header or EOF reached.
+WARN  09:15:54,161 | org.apache.james.mime4j.parser.MimeEntity | Unexpected end of headers detected. Higher level boundary detected or EOF reached.
+WARN  09:15:54,161 | org.apache.james.mime4j.parser.MimeEntity | Invalid header encountered
+WARN  09:15:54,161 | org.apache.james.mime4j.parser.MimeEntity | Body part ended prematurely. Boundary detected in header or EOF reached.
+WARN  09:15:54,167 | org.apache.james.mime4j.parser.MimeEntity | Unexpected end of headers detected. Higher level boundary detected or EOF reached.
+WARN  09:15:54,168 | org.apache.james.mime4j.parser.MimeEntity | Invalid header encountered
+WARN  09:15:54,168 | org.apache.james.mime4j.parser.MimeEntity | Body part ended prematurely. Boundary detected in header or EOF reached.
+WARN  09:15:54,174 | org.apache.james.mime4j.parser.MimeEntity | Unexpected end of headers detected. Higher level boundary detected or EOF reached.
+WARN  09:15:54,174 | org.apache.james.mime4j.parser.MimeEntity | Invalid header encountered
+WARN  09:15:54,174 | org.apache.james.mime4j.parser.MimeEntity | Body part ended prematurely. Boundary detected in header or EOF reached.
+WARN  09:15:54,180 | org.apache.james.mime4j.parser.MimeEntity | Unexpected end of headers detected. Higher level boundary detected or EOF reached.
+WARN  09:15:54,180 | org.apache.james.mime4j.parser.MimeEntity | Invalid header encountered
+WARN  09:15:54,181 | org.apache.james.mime4j.parser.MimeEntity | Body part ended prematurely. Boundary detected in header or EOF reached.
+WARN  09:15:54,187 | org.apache.james.mime4j.parser.MimeEntity | Unexpected end of headers detected. Higher level boundary detected or EOF reached.
+WARN  09:15:54,187 | org.apache.james.mime4j.parser.MimeEntity | Invalid header encountered
+WARN  09:15:54,187 | org.apache.james.mime4j.parser.MimeEntity | Body part ended prematurely. Boundary detected in header or EOF reached.
+INFO  09:15:57,955 | james.imapserver | ID=19881910 Connection established from activate.adobe.com (127.0.0.1)
+INFO  09:15:59,402 | james.imapserver | ID=9592751 Connection established from activate.adobe.com (127.0.0.1)
+INFO  09:15:59,896 | james.imapserver | ID=31290473 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  09:15:59,896 | james.imapserver | ID=9592751 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  09:15:59,896 | james.imapserver | ID=7790392 Connection established from activate.adobe.com (127.0.0.1)
+INFO  09:15:59,897 | james.imapserver | ID=19881910 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  09:16:10,625 | james.imapserver | ID=25713722 Connection established from activate.adobe.com (127.0.0.1)
+INFO  09:16:11,553 | james.imapserver | ID=5093852 Connection established from activate.adobe.com (127.0.0.1)
+WARN  09:16:11,590 | org.apache.james.mime4j.parser.MimeEntity | Invalid header encountered
+WARN  09:16:11,619 | org.apache.james.mime4j.parser.MimeEntity | Unexpected end of headers detected. Higher level boundary detected or EOF reached.
+WARN  09:16:11,619 | org.apache.james.mime4j.parser.MimeEntity | Invalid header encountered
+WARN  09:16:11,620 | org.apache.james.mime4j.parser.MimeEntity | Body part ended prematurely. Boundary detected in header or EOF reached.
+WARN  09:16:11,630 | org.apache.james.mime4j.parser.MimeEntity | Unexpected end of headers detected. Higher level boundary detected or EOF reached.
+WARN  09:16:11,631 | org.apache.james.mime4j.parser.MimeEntity | Invalid header encountered
+WARN  09:16:11,631 | org.apache.james.mime4j.parser.MimeEntity | Body part ended prematurely. Boundary detected in header or EOF reached.
+WARN  09:16:11,662 | org.apache.james.mime4j.parser.MimeEntity | Unexpected end of headers detected. Higher level boundary detected or EOF reached.
+WARN  09:16:11,662 | org.apache.james.mime4j.parser.MimeEntity | Invalid header encountered
+WARN  09:16:11,662 | org.apache.james.mime4j.parser.MimeEntity | Body part ended prematurely. Boundary detected in header or EOF reached.
+WARN  09:16:11,667 | org.apache.james.mime4j.parser.MimeEntity | Unexpected end of headers detected. Higher level boundary detected or EOF reached.
+WARN  09:16:11,668 | org.apache.james.mime4j.parser.MimeEntity | Invalid header encountered
+WARN  09:16:11,668 | org.apache.james.mime4j.parser.MimeEntity | Body part ended prematurely. Boundary detected in header or EOF reached.
+WARN  09:16:11,673 | org.apache.james.mime4j.parser.MimeEntity | Unexpected end of headers detected. Higher level boundary detected or EOF reached.
+WARN  09:16:11,673 | org.apache.james.mime4j.parser.MimeEntity | Invalid header encountered
+WARN  09:16:11,673 | org.apache.james.mime4j.parser.MimeEntity | Body part ended prematurely. Boundary detected in header or EOF reached.
+WARN  09:16:11,678 | org.apache.james.mime4j.parser.MimeEntity | Unexpected end of headers detected. Higher level boundary detected or EOF reached.
+WARN  09:16:11,678 | org.apache.james.mime4j.parser.MimeEntity | Invalid header encountered
+WARN  09:16:11,678 | org.apache.james.mime4j.parser.MimeEntity | Body part ended prematurely. Boundary detected in header or EOF reached.
+WARN  09:16:11,684 | org.apache.james.mime4j.parser.MimeEntity | Unexpected end of headers detected. Higher level boundary detected or EOF reached.
+WARN  09:16:11,684 | org.apache.james.mime4j.parser.MimeEntity | Invalid header encountered
+WARN  09:16:11,684 | org.apache.james.mime4j.parser.MimeEntity | Body part ended prematurely. Boundary detected in header or EOF reached.
+WARN  09:16:11,689 | org.apache.james.mime4j.parser.MimeEntity | Unexpected end of headers detected. Higher level boundary detected or EOF reached.
+WARN  09:16:11,689 | org.apache.james.mime4j.parser.MimeEntity | Invalid header encountered
+WARN  09:16:11,689 | org.apache.james.mime4j.parser.MimeEntity | Body part ended prematurely. Boundary detected in header or EOF reached.
+WARN  09:16:11,694 | org.apache.james.mime4j.parser.MimeEntity | Unexpected end of headers detected. Higher level boundary detected or EOF reached.
+WARN  09:16:11,695 | org.apache.james.mime4j.parser.MimeEntity | Invalid header encountered
+WARN  09:16:11,695 | org.apache.james.mime4j.parser.MimeEntity | Body part ended prematurely. Boundary detected in header or EOF reached.
+WARN  09:16:11,700 | org.apache.james.mime4j.parser.MimeEntity | Unexpected end of headers detected. Higher level boundary detected or EOF reached.
+WARN  09:16:11,700 | org.apache.james.mime4j.parser.MimeEntity | Invalid header encountered
+WARN  09:16:11,700 | org.apache.james.mime4j.parser.MimeEntity | Body part ended prematurely. Boundary detected in header or EOF reached.
+WARN  09:16:11,708 | org.apache.james.mime4j.parser.MimeEntity | Unexpected end of headers detected. Higher level boundary detected or EOF reached.
+WARN  09:16:11,708 | org.apache.james.mime4j.parser.MimeEntity | Invalid header encountered
+WARN  09:16:11,709 | org.apache.james.mime4j.parser.MimeEntity | Body part ended prematurely. Boundary detected in header or EOF reached.
+WARN  09:16:11,714 | org.apache.james.mime4j.parser.MimeEntity | Unexpected end of headers detected. Higher level boundary detected or EOF reached.
+WARN  09:16:11,714 | org.apache.james.mime4j.parser.MimeEntity | Invalid header encountered
+WARN  09:16:11,714 | org.apache.james.mime4j.parser.MimeEntity | Body part ended prematurely. Boundary detected in header or EOF reached.
+WARN  09:16:11,719 | org.apache.james.mime4j.parser.MimeEntity | Unexpected end of headers detected. Higher level boundary detected or EOF reached.
+WARN  09:16:11,719 | org.apache.james.mime4j.parser.MimeEntity | Invalid header encountered
+WARN  09:16:11,719 | org.apache.james.mime4j.parser.MimeEntity | Body part ended prematurely. Boundary detected in header or EOF reached.
+WARN  09:16:11,724 | org.apache.james.mime4j.parser.MimeEntity | Unexpected end of headers detected. Higher level boundary detected or EOF reached.
+WARN  09:16:11,725 | org.apache.james.mime4j.parser.MimeEntity | Invalid header encountered
+WARN  09:16:11,725 | org.apache.james.mime4j.parser.MimeEntity | Body part ended prematurely. Boundary detected in header or EOF reached.
+WARN  09:16:11,730 | org.apache.james.mime4j.parser.MimeEntity | Unexpected end of headers detected. Higher level boundary detected or EOF reached.
+WARN  09:16:11,730 | org.apache.james.mime4j.parser.MimeEntity | Invalid header encountered
+WARN  09:16:11,730 | org.apache.james.mime4j.parser.MimeEntity | Body part ended prematurely. Boundary detected in header or EOF reached.
+WARN  09:16:11,735 | org.apache.james.mime4j.parser.MimeEntity | Unexpected end of headers detected. Higher level boundary detected or EOF reached.
+WARN  09:16:11,735 | org.apache.james.mime4j.parser.MimeEntity | Invalid header encountered
+WARN  09:16:11,735 | org.apache.james.mime4j.parser.MimeEntity | Body part ended prematurely. Boundary detected in header or EOF reached.
+WARN  09:16:11,740 | org.apache.james.mime4j.parser.MimeEntity | Unexpected end of headers detected. Higher level boundary detected or EOF reached.
+WARN  09:16:11,741 | org.apache.james.mime4j.parser.MimeEntity | Invalid header encountered
+WARN  09:16:11,741 | org.apache.james.mime4j.parser.MimeEntity | Body part ended prematurely. Boundary detected in header or EOF reached.
+WARN  09:16:11,746 | org.apache.james.mime4j.parser.MimeEntity | Unexpected end of headers detected. Higher level boundary detected or EOF reached.
+WARN  09:16:11,746 | org.apache.james.mime4j.parser.MimeEntity | Invalid header encountered
+WARN  09:16:11,746 | org.apache.james.mime4j.parser.MimeEntity | Body part ended prematurely. Boundary detected in header or EOF reached.
+WARN  09:16:11,751 | org.apache.james.mime4j.parser.MimeEntity | Unexpected end of headers detected. Higher level boundary detected or EOF reached.
+WARN  09:16:11,751 | org.apache.james.mime4j.parser.MimeEntity | Invalid header encountered
+WARN  09:16:11,751 | org.apache.james.mime4j.parser.MimeEntity | Body part ended prematurely. Boundary detected in header or EOF reached.
+WARN  09:16:11,756 | org.apache.james.mime4j.parser.MimeEntity | Unexpected end of headers detected. Higher level boundary detected or EOF reached.
+WARN  09:16:11,756 | org.apache.james.mime4j.parser.MimeEntity | Invalid header encountered
+WARN  09:16:11,756 | org.apache.james.mime4j.parser.MimeEntity | Body part ended prematurely. Boundary detected in header or EOF reached.
+WARN  09:16:11,761 | org.apache.james.mime4j.parser.MimeEntity | Unexpected end of headers detected. Higher level boundary detected or EOF reached.
+WARN  09:16:11,762 | org.apache.james.mime4j.parser.MimeEntity | Invalid header encountered
+WARN  09:16:11,762 | org.apache.james.mime4j.parser.MimeEntity | Body part ended prematurely. Boundary detected in header or EOF reached.
+WARN  09:16:11,781 | org.apache.james.mime4j.parser.MimeEntity | Unexpected end of headers detected. Higher level boundary detected or EOF reached.
+WARN  09:16:11,781 | org.apache.james.mime4j.parser.MimeEntity | Invalid header encountered
+WARN  09:16:11,781 | org.apache.james.mime4j.parser.MimeEntity | Body part ended prematurely. Boundary detected in header or EOF reached.
+WARN  09:16:11,786 | org.apache.james.mime4j.parser.MimeEntity | Unexpected end of headers detected. Higher level boundary detected or EOF reached.
+WARN  09:16:11,786 | org.apache.james.mime4j.parser.MimeEntity | Invalid header encountered
+WARN  09:16:11,786 | org.apache.james.mime4j.parser.MimeEntity | Body part ended prematurely. Boundary detected in header or EOF reached.
+WARN  09:16:11,791 | org.apache.james.mime4j.parser.MimeEntity | Unexpected end of headers detected. Higher level boundary detected or EOF reached.
+WARN  09:16:11,791 | org.apache.james.mime4j.parser.MimeEntity | Invalid header encountered
+WARN  09:16:11,792 | org.apache.james.mime4j.parser.MimeEntity | Body part ended prematurely. Boundary detected in header or EOF reached.
+WARN  09:16:11,796 | org.apache.james.mime4j.parser.MimeEntity | Unexpected end of headers detected. Higher level boundary detected or EOF reached.
+WARN  09:16:11,797 | org.apache.james.mime4j.parser.MimeEntity | Invalid header encountered
+WARN  09:16:11,797 | org.apache.james.mime4j.parser.MimeEntity | Body part ended prematurely. Boundary detected in header or EOF reached.
+WARN  09:16:11,801 | org.apache.james.mime4j.parser.MimeEntity | Unexpected end of headers detected. Higher level boundary detected or EOF reached.
+WARN  09:16:11,802 | org.apache.james.mime4j.parser.MimeEntity | Invalid header encountered
+WARN  09:16:11,802 | org.apache.james.mime4j.parser.MimeEntity | Body part ended prematurely. Boundary detected in header or EOF reached.
+INFO  09:17:51,628 | james.imapserver | ID=5093852 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  09:17:51,629 | james.imapserver | ID=25713722 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  09:18:16,489 | james.imapserver | ID=21250164 Connection established from activate.adobe.com (127.0.0.1)
+INFO  09:18:16,594 | james.imapserver | ID=20153889 Connection established from activate.adobe.com (127.0.0.1)
+INFO  09:18:48,609 | james.imapserver | ID=19730234 Connection established from activate.adobe.com (127.0.0.1)
+INFO  09:18:48,687 | james.imapserver | ID=1981014 Connection established from activate.adobe.com (127.0.0.1)
+INFO  09:18:56,938 | james.imapserver | ID=4447434 Connection established from activate.adobe.com (127.0.0.1)
+WARN  09:18:56,956 | org.apache.james.mime4j.parser.MimeEntity | Invalid header encountered
+WARN  09:18:56,995 | org.apache.james.mime4j.parser.MimeEntity | Unexpected end of headers detected. Higher level boundary detected or EOF reached.
+WARN  09:18:56,996 | org.apache.james.mime4j.parser.MimeEntity | Invalid header encountered
+WARN  09:18:56,996 | org.apache.james.mime4j.parser.MimeEntity | Body part ended prematurely. Boundary detected in header or EOF reached.
+WARN  09:18:57,001 | org.apache.james.mime4j.parser.MimeEntity | Unexpected end of headers detected. Higher level boundary detected or EOF reached.
+WARN  09:18:57,001 | org.apache.james.mime4j.parser.MimeEntity | Invalid header encountered
+WARN  09:18:57,001 | org.apache.james.mime4j.parser.MimeEntity | Body part ended prematurely. Boundary detected in header or EOF reached.
+INFO  09:19:00,882 | james.imapserver | ID=27426566 Connection established from activate.adobe.com (127.0.0.1)
+INFO  09:19:01,618 | james.imapserver | ID=15639772 Connection established from activate.adobe.com (127.0.0.1)
+INFO  09:19:05,572 | james.imapserver | ID=15639772 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  09:19:05,573 | james.imapserver | ID=10861598 Connection established from activate.adobe.com (127.0.0.1)
+INFO  09:19:05,574 | james.imapserver | ID=27426566 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  09:19:05,575 | james.imapserver | ID=4447434 Connection closed for activate.adobe.com (127.0.0.1)
+WARN  09:19:05,591 | org.apache.james.mime4j.parser.MimeEntity | Invalid header encountered
+WARN  09:19:05,626 | org.apache.james.mime4j.parser.MimeEntity | Unexpected end of headers detected. Higher level boundary detected or EOF reached.
+WARN  09:19:05,627 | org.apache.james.mime4j.parser.MimeEntity | Invalid header encountered
+WARN  09:19:05,627 | org.apache.james.mime4j.parser.MimeEntity | Body part ended prematurely. Boundary detected in header or EOF reached.
+WARN  09:19:05,631 | org.apache.james.mime4j.parser.MimeEntity | Unexpected end of headers detected. Higher level boundary detected or EOF reached.
+WARN  09:19:05,631 | org.apache.james.mime4j.parser.MimeEntity | Invalid header encountered
+WARN  09:19:05,631 | org.apache.james.mime4j.parser.MimeEntity | Body part ended prematurely. Boundary detected in header or EOF reached.
+INFO  09:19:14,107 | james.imapserver | ID=28907097 Connection established from activate.adobe.com (127.0.0.1)
+INFO  09:19:14,126 | james.imapserver | ID=10783421 Connection established from activate.adobe.com (127.0.0.1)
+INFO  09:19:40,449 | james.imapserver | ID=24949487 Connection established from activate.adobe.com (127.0.0.1)
+INFO  09:19:40,473 | james.imapserver | ID=28907097 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  09:19:40,473 | james.imapserver | ID=10783421 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  09:19:40,531 | james.imapserver | ID=20403637 Connection established from activate.adobe.com (127.0.0.1)
+INFO  09:19:57,125 | james.imapserver | ID=10900139 Connection established from activate.adobe.com (127.0.0.1)
+INFO  09:19:57,257 | james.imapserver | ID=28433306 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  09:19:57,258 | james.imapserver | ID=19994027 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  09:19:57,257 | james.imapserver | ID=24949487 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  09:19:57,258 | james.imapserver | ID=8595508 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  09:19:57,258 | james.imapserver | ID=7790392 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  09:19:57,257 | james.imapserver | ID=23801900 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  09:19:57,257 | james.imapserver | ID=31005098 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  09:19:57,257 | james.imapserver | ID=17521560 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  09:19:57,257 | james.imapserver | ID=21725314 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  09:19:57,257 | james.imapserver | ID=3250652 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  09:19:57,257 | james.imapserver | ID=1981014 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  09:19:57,257 | james.imapserver | ID=20403637 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  09:19:57,258 | james.imapserver | ID=20588656 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  09:19:57,257 | james.imapserver | ID=19730234 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  09:19:57,257 | james.imapserver | ID=10861598 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  09:19:57,257 | james.imapserver | ID=18783200 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  09:19:57,258 | james.imapserver | ID=27261885 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  09:19:57,258 | james.imapserver | ID=14632861 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  09:19:57,258 | james.imapserver | ID=18605095 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  09:19:57,258 | james.imapserver | ID=32326406 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  09:19:57,281 | james.imapserver | ID=237402 Connection established from activate.adobe.com (127.0.0.1)
+INFO  09:19:59,023 | james.imapserver | ID=7975210 Connection established from activate.adobe.com (127.0.0.1)
+INFO  09:19:59,040 | james.imapserver | ID=11138657 Connection established from activate.adobe.com (127.0.0.1)
+INFO  09:20:47,359 | james.imapserver | ID=29485385 Logout client activate.adobe.com (127.0.0.1) because it idled for too long...
+INFO  09:20:47,360 | james.imapserver | ID=29485385 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  09:20:55,016 | james.imapserver | ID=28396001 Connection established from activate.adobe.com (127.0.0.1)
+INFO  09:20:55,037 | james.imapserver | ID=11138657 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  09:20:55,037 | james.imapserver | ID=7975210 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  09:20:55,093 | james.imapserver | ID=19941263 Connection established from activate.adobe.com (127.0.0.1)
+INFO  09:21:06,859 | james.imapserver | ID=10590898 Logout client activate.adobe.com (127.0.0.1) because it idled for too long...
+INFO  09:21:06,860 | james.imapserver | ID=10590898 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  09:21:25,059 | james.imapserver | ID=1094018 Logout client activate.adobe.com (127.0.0.1) because it idled for too long...
+INFO  09:21:25,060 | james.imapserver | ID=1094018 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  09:21:32,959 | james.imapserver | ID=28414404 Logout client activate.adobe.com (127.0.0.1) because it idled for too long...
+INFO  09:21:32,960 | james.imapserver | ID=28414404 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  09:22:30,760 | james.imapserver | ID=18851328 Connection established from activate.adobe.com (127.0.0.1)
+INFO  09:22:30,837 | james.imapserver | ID=23263212 Connection established from activate.adobe.com (127.0.0.1)
+INFO  09:22:56,932 | james.imapserver | ID=16298492 Connection established from activate.adobe.com (127.0.0.1)
+INFO  09:22:57,030 | james.imapserver | ID=24761475 Connection established from activate.adobe.com (127.0.0.1)
+INFO  09:23:20,683 | james.imapserver | ID=20696682 Connection established from activate.adobe.com (127.0.0.1)
+INFO  09:23:20,780 | james.imapserver | ID=25838031 Connection established from activate.adobe.com (127.0.0.1)
+INFO  09:23:27,590 | james.imapserver | ID=32019487 Connection established from activate.adobe.com (127.0.0.1)
+INFO  09:23:27,608 | james.imapserver | ID=21842891 Connection established from activate.adobe.com (127.0.0.1)
+INFO  09:24:13,728 | james.imapserver | ID=28059678 Connection established from activate.adobe.com (127.0.0.1)
+INFO  09:24:13,746 | james.imapserver | ID=29147334 Connection established from activate.adobe.com (127.0.0.1)
+INFO  09:24:41,702 | james.imapserver | ID=21842891 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  09:24:41,702 | james.imapserver | ID=32019487 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  09:25:04,811 | james.imapserver | ID=5274081 Connection established from activate.adobe.com (127.0.0.1)
+INFO  09:25:04,890 | james.imapserver | ID=22636164 Connection established from activate.adobe.com (127.0.0.1)
+INFO  09:25:28,213 | james.imapserver | ID=10885246 Connection established from activate.adobe.com (127.0.0.1)
+INFO  09:25:28,392 | james.imapserver | ID=26116633 Connection established from activate.adobe.com (127.0.0.1)
+INFO  09:25:39,121 | james.imapserver | ID=31572985 Connection established from activate.adobe.com (127.0.0.1)
+INFO  09:25:45,112 | james.imapserver | ID=860476 Connection established from activate.adobe.com (127.0.0.1)
+INFO  09:25:45,608 | james.imapserver | ID=5635897 Connection established from activate.adobe.com (127.0.0.1)
+INFO  09:25:45,648 | james.imapserver | ID=860476 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  09:25:45,649 | james.imapserver | ID=10885246 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  09:25:45,650 | james.imapserver | ID=31572985 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  09:25:45,650 | james.imapserver | ID=26116633 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  09:25:46,440 | james.imapserver | ID=28305308 Connection established from activate.adobe.com (127.0.0.1)
+INFO  09:25:47,056 | james.imapserver | ID=24358672 Connection established from activate.adobe.com (127.0.0.1)
+INFO  09:25:47,632 | james.imapserver | ID=3960854 Connection established from activate.adobe.com (127.0.0.1)
+INFO  09:25:48,392 | james.imapserver | ID=13217670 Connection established from activate.adobe.com (127.0.0.1)
+INFO  09:25:49,224 | james.imapserver | ID=5087869 Connection established from activate.adobe.com (127.0.0.1)
+INFO  09:25:59,913 | james.imapserver | ID=13123124 Connection established from activate.adobe.com (127.0.0.1)
+WARN  09:25:59,930 | org.apache.james.mime4j.parser.MimeEntity | Invalid header encountered
+WARN  09:25:59,966 | org.apache.james.mime4j.parser.MimeEntity | Unexpected end of headers detected. Higher level boundary detected or EOF reached.
+WARN  09:25:59,966 | org.apache.james.mime4j.parser.MimeEntity | Invalid header encountered
+WARN  09:25:59,966 | org.apache.james.mime4j.parser.MimeEntity | Body part ended prematurely. Boundary detected in header or EOF reached.
+WARN  09:25:59,970 | org.apache.james.mime4j.parser.MimeEntity | Unexpected end of headers detected. Higher level boundary detected or EOF reached.
+WARN  09:25:59,971 | org.apache.james.mime4j.parser.MimeEntity | Invalid header encountered
+WARN  09:25:59,971 | org.apache.james.mime4j.parser.MimeEntity | Body part ended prematurely. Boundary detected in header or EOF reached.
+INFO  09:27:21,728 | james.imapserver | ID=13123124 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  09:27:21,729 | james.imapserver | ID=5087869 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  09:27:21,729 | james.imapserver | ID=13217670 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  09:27:21,730 | james.imapserver | ID=3960854 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  09:27:21,731 | james.imapserver | ID=24358672 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  09:27:21,732 | james.imapserver | ID=28305308 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  09:29:54,569 | james.imapserver | ID=21715579 Connection established from activate.adobe.com (127.0.0.1)
+INFO  09:29:54,668 | james.imapserver | ID=14441695 Connection established from activate.adobe.com (127.0.0.1)
+INFO  09:30:28,286 | james.imapserver | ID=14356259 Connection established from activate.adobe.com (127.0.0.1)
+INFO  09:30:28,384 | james.imapserver | ID=8344029 Connection established from activate.adobe.com (127.0.0.1)
+INFO  09:30:51,928 | james.imapserver | ID=601064 Connection established from activate.adobe.com (127.0.0.1)
+INFO  09:30:52,026 | james.imapserver | ID=30715724 Connection established from activate.adobe.com (127.0.0.1)
+INFO  09:31:21,883 | james.imapserver | ID=16720519 Connection established from activate.adobe.com (127.0.0.1)
+INFO  09:31:21,978 | james.imapserver | ID=12085112 Connection established from activate.adobe.com (127.0.0.1)
+INFO  09:31:38,555 | james.imapserver | ID=22815105 Connection established from activate.adobe.com (127.0.0.1)
+INFO  09:31:38,701 | james.imapserver | ID=12085112 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  09:31:38,702 | james.imapserver | ID=28059678 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  09:31:38,702 | james.imapserver | ID=5635897 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  09:31:38,702 | james.imapserver | ID=29147334 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  09:31:38,702 | james.imapserver | ID=25838031 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  09:31:38,702 | james.imapserver | ID=5274081 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  09:31:38,701 | james.imapserver | ID=601064 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  09:31:38,702 | james.imapserver | ID=24761475 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  09:31:38,702 | james.imapserver | ID=20696682 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  09:31:38,702 | james.imapserver | ID=14356259 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  09:31:38,701 | james.imapserver | ID=14441695 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  09:31:38,701 | james.imapserver | ID=8344029 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  09:31:38,701 | james.imapserver | ID=16720519 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  09:31:38,702 | james.imapserver | ID=16298492 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  09:31:38,702 | james.imapserver | ID=237402 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  09:31:38,702 | james.imapserver | ID=28396001 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  09:31:38,702 | james.imapserver | ID=19941263 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  09:31:38,702 | james.imapserver | ID=21250164 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  09:31:38,703 | james.imapserver | ID=10900139 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  09:31:38,701 | james.imapserver | ID=30715724 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  09:31:38,701 | james.imapserver | ID=21715579 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  09:31:38,703 | james.imapserver | ID=20153889 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  09:31:38,702 | james.imapserver | ID=22636164 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  09:31:38,722 | james.imapserver | ID=24959814 Connection established from activate.adobe.com (127.0.0.1)
+INFO  09:37:56,156 | james.imapserver | ID=12341906 Connection established from activate.adobe.com (127.0.0.1)
+INFO  09:37:56,252 | james.imapserver | ID=28927473 Connection established from activate.adobe.com (127.0.0.1)
+INFO  09:38:31,147 | james.imapserver | ID=23556824 Connection established from activate.adobe.com (127.0.0.1)
+INFO  09:38:31,244 | james.imapserver | ID=19392580 Connection established from activate.adobe.com (127.0.0.1)
+INFO  09:40:08,365 | james.imapserver | ID=19913534 Connection established from activate.adobe.com (127.0.0.1)
+INFO  09:40:08,463 | james.imapserver | ID=9455722 Connection established from activate.adobe.com (127.0.0.1)
+INFO  09:40:41,592 | james.imapserver | ID=13859487 Connection established from activate.adobe.com (127.0.0.1)
+INFO  09:40:41,689 | james.imapserver | ID=23075771 Connection established from activate.adobe.com (127.0.0.1)
+INFO  09:41:27,410 | james.imapserver | ID=5909498 Connection established from activate.adobe.com (127.0.0.1)
+INFO  09:41:27,508 | james.imapserver | ID=22249945 Connection established from activate.adobe.com (127.0.0.1)
+INFO  09:41:49,324 | james.imapserver | ID=299161 Connection established from activate.adobe.com (127.0.0.1)
+INFO  09:41:49,422 | james.imapserver | ID=30234415 Connection established from activate.adobe.com (127.0.0.1)
+INFO  09:42:45,561 | james.imapserver | ID=19835317 Connection established from activate.adobe.com (127.0.0.1)
+INFO  09:42:45,654 | james.imapserver | ID=18220469 Connection established from activate.adobe.com (127.0.0.1)
+INFO  09:43:29,358 | james.imapserver | ID=4157341 Connection established from activate.adobe.com (127.0.0.1)
+INFO  09:43:29,454 | james.imapserver | ID=3863681 Connection established from activate.adobe.com (127.0.0.1)
+INFO  09:43:38,005 | james.imapserver | ID=22556429 Connection established from activate.adobe.com (127.0.0.1)
+INFO  09:43:38,104 | james.imapserver | ID=26863539 Connection established from activate.adobe.com (127.0.0.1)
+INFO  09:44:11,484 | james.imapserver | ID=3802556 Connection established from activate.adobe.com (127.0.0.1)
+INFO  09:44:11,588 | james.imapserver | ID=23556824 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  09:44:11,588 | james.imapserver | ID=3863681 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  09:44:11,588 | james.imapserver | ID=19835317 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  09:44:11,588 | james.imapserver | ID=4157341 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  09:44:11,588 | james.imapserver | ID=18220469 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  09:44:11,589 | james.imapserver | ID=30234415 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  09:44:11,589 | james.imapserver | ID=12341906 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  09:44:11,589 | james.imapserver | ID=28927473 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  09:44:11,589 | james.imapserver | ID=19392580 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  09:44:11,589 | james.imapserver | ID=9455722 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  09:44:11,589 | james.imapserver | ID=19913534 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  09:44:11,589 | james.imapserver | ID=299161 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  09:44:11,589 | james.imapserver | ID=13859487 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  09:44:11,589 | james.imapserver | ID=23075771 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  09:44:11,589 | james.imapserver | ID=5909498 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  09:44:11,589 | james.imapserver | ID=22249945 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  09:44:11,590 | james.imapserver | ID=22815105 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  09:44:11,590 | james.imapserver | ID=24959814 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  09:44:11,644 | james.imapserver | ID=17769838 Connection established from activate.adobe.com (127.0.0.1)
+INFO  09:44:35,238 | james.imapserver | ID=2410001 Connection established from activate.adobe.com (127.0.0.1)
+INFO  09:44:35,330 | james.imapserver | ID=29007455 Connection established from activate.adobe.com (127.0.0.1)
+INFO  09:45:21,155 | james.imapserver | ID=22556429 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  09:45:21,155 | james.imapserver | ID=2410001 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  09:45:21,156 | james.imapserver | ID=18851328 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  09:45:21,155 | james.imapserver | ID=29007455 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  09:45:21,155 | james.imapserver | ID=3802556 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  09:45:21,155 | james.imapserver | ID=26863539 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  09:45:21,155 | james.imapserver | ID=17769838 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  09:45:21,155 | james.imapserver | ID=23263212 Connection closed for activate.adobe.com (127.0.0.1)

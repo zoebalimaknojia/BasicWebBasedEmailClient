@@ -1,0 +1,6 @@
+INFO  09:15:16,905 | james.pop3server | POP3 Service bound to: 0.0.0.0:110
+INFO  09:15:16,920 | james.pop3server | POP3 Service is running on: NIKKIPUNJAB51C5
+INFO  09:15:16,920 | james.pop3server | POP3 Service handler hello name is: NIKKIPUNJAB51C5
+INFO  09:15:16,920 | james.pop3server | POP3 Service handler connection timeout is: 1200
+INFO  09:15:16,920 | james.pop3server | POP3 Service connection backlog is: 200
+INFO  09:15:16,983 | james.pop3server | Init POP3 Service done

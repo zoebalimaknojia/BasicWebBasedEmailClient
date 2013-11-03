@@ -1,0 +1,11 @@
+INFO  09:15:16,608 | james.smtpserver | SMTP Service bound to: 0.0.0.0:25
+INFO  09:15:16,608 | james.smtpserver | SMTP Service is running on: NIKKIPUNJAB51C5
+INFO  09:15:16,608 | james.smtpserver | SMTP Service handler hello name is: NIKKIPUNJAB51C5
+INFO  09:15:16,608 | james.smtpserver | SMTP Service handler connection timeout is: 360
+INFO  09:15:16,608 | james.smtpserver | SMTP Service connection backlog is: 200
+INFO  09:15:16,608 | james.smtpserver | This SMTP server requires authentication.
+INFO  09:15:16,608 | james.smtpserver | No maximum message size is enforced for this server.
+INFO  09:15:16,858 | james.smtpserver | Init SMTP Service done
+INFO  09:32:51,675 | james.smtpserver | ID=5130122 Connection established from 127.0.0.1 (127.0.0.1)
+INFO  09:32:51,744 | james.smtpserver | ID=5130122 Successfully spooled mail Mail1325563371738-8194ae39-ebfa-4cb9-8d81-f780fa8ab408 from nikki@nikki.com on 127.0.0.1 for [nikki@nikki.com]
+INFO  09:32:51,821 | james.smtpserver | ID=5130122 Connection closed for 127.0.0.1 (127.0.0.1)

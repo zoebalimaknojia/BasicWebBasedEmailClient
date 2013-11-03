@@ -1,0 +1,18 @@
+INFO  19:06:37,395 | james.imapserver | IMAP Service bound to: 0.0.0.0:143
+INFO  19:06:37,410 | james.imapserver | IMAP Service is running on: chandapunjabi
+INFO  19:06:37,411 | james.imapserver | IMAP Service handler hello name is: chandapunjabi
+INFO  19:06:37,411 | james.imapserver | IMAP Service handler connection timeout is: 300
+INFO  19:06:37,412 | james.imapserver | IMAP Service connection backlog is: 200
+INFO  19:06:37,447 | james.imapserver | Init IMAP Service done
+INFO  19:06:40,007 | james.imapserver | ID=3681765 Connection established from activate.adobe.com (127.0.0.1)
+INFO  19:06:44,674 | james.imapserver | ID=19796980 Connection established from activate.adobe.com (127.0.0.1)
+INFO  19:06:49,986 | james.imapserver | ID=12956797 Connection established from activate.adobe.com (127.0.0.1)
+INFO  19:06:52,179 | james.imapserver | ID=9977825 Connection established from activate.adobe.com (127.0.0.1)
+INFO  19:06:54,430 | james.imapserver | ID=12956797 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  19:06:54,430 | james.imapserver | ID=9977825 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  19:06:57,589 | james.imapserver | ID=1288232 Connection established from activate.adobe.com (127.0.0.1)
+INFO  19:07:11,426 | james.imapserver | ID=1288232 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  19:36:41,089 | james.imapserver | ID=3681765 Logout client activate.adobe.com (127.0.0.1) because it idled for too long...
+INFO  19:36:41,090 | james.imapserver | ID=3681765 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  19:36:46,091 | james.imapserver | ID=19796980 Logout client activate.adobe.com (127.0.0.1) because it idled for too long...
+INFO  19:36:46,093 | james.imapserver | ID=19796980 Connection closed for activate.adobe.com (127.0.0.1)

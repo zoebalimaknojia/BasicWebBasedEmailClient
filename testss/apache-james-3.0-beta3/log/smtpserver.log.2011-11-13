@@ -1,0 +1,16 @@
+INFO  08:28:50,676 | james.smtpserver | SMTP Service bound to: 0.0.0.0:25
+INFO  08:28:50,676 | james.smtpserver | SMTP Service is running on: chandapunjabi
+INFO  08:28:50,676 | james.smtpserver | SMTP Service handler hello name is: chandapunjabi
+INFO  08:28:50,676 | james.smtpserver | SMTP Service handler connection timeout is: 360
+INFO  08:28:50,676 | james.smtpserver | SMTP Service connection backlog is: 200
+INFO  08:28:50,676 | james.smtpserver | This SMTP server requires authentication.
+INFO  08:28:50,676 | james.smtpserver | No maximum message size is enforced for this server.
+INFO  08:28:51,113 | james.smtpserver | Init SMTP Service done
+INFO  17:43:11,628 | james.smtpserver | SMTP Service bound to: 0.0.0.0:25
+INFO  17:43:11,643 | james.smtpserver | SMTP Service is running on: chandapunjabi
+INFO  17:43:11,645 | james.smtpserver | SMTP Service handler hello name is: chandapunjabi
+INFO  17:43:11,647 | james.smtpserver | SMTP Service handler connection timeout is: 360
+INFO  17:43:11,649 | james.smtpserver | SMTP Service connection backlog is: 200
+INFO  17:43:11,650 | james.smtpserver | This SMTP server requires authentication.
+INFO  17:43:11,652 | james.smtpserver | No maximum message size is enforced for this server.
+INFO  17:43:12,088 | james.smtpserver | Init SMTP Service done

@@ -1,0 +1,59 @@
+
+
+.inputbox {
+  background-color:#FFFFFF; 
+  color: #333333;
+  width:150px;
+  border-width:1px;
+  border-style:solid;
+  border-color:#808080;
+  height: 200px;
+}
+
+.inputbox:hover {
+  border-width:1px;
+  border-style:solid;
+  border-color:#11A3EA;
+}
+
+.inputbox:focus {
+  border-width:1px;
+  border-style:solid;
+  border-color:#11A3EA;
+  color: #0F4987;
+  
+}
+
+.submitButton {
+  background-color: #ffffff;
+  color: #000000;
+  background: #ffffff;
+  border: 1px solid #cccccc; 
+  text-align: center;
+  width: auto;
+  padding: 2px 3px 2px 3px;
+}
+
+.Large
+{
+    font-size: 1412:56 AM 1/1/2009pt;
+    width: 200px;
+    border-width:1px;
+    border-style:solid;
+    border-color:#11A3EA;
+    color: #0F4987;
+    height: 25px;
+}
+
+
+root {     display: block;    font-size: 14px;  font-style: italic;  font-weight: normal;  font-variant: normal;  color: navy;  background-color: #ccffcc;  background-attachment: none;  font-family: Georgia,'Times New Roman',times,serif;}root { 
+    display: block;
+    font-size: 14px;
+  font-style: italic;
+  font-weight: normal;
+  font-variant: normal;
+  color: navy;
+  background-color: #ccffcc;
+  background-attachment: none;
+  font-family: Georgia,'Times New Roman',times,serif;
+}

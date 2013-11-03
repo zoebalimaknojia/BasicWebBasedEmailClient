@@ -1,0 +1,50 @@
+INFO  09:25:51,602 | james.smtpserver | SMTP Service bound to: 0.0.0.0:25
+INFO  09:25:51,604 | james.smtpserver | SMTP Service is running on: chandapunjabi
+INFO  09:25:51,605 | james.smtpserver | SMTP Service handler hello name is: chandapunjabi
+INFO  09:25:51,606 | james.smtpserver | SMTP Service handler connection timeout is: 360
+INFO  09:25:51,608 | james.smtpserver | SMTP Service connection backlog is: 200
+INFO  09:25:51,609 | james.smtpserver | This SMTP server requires authentication.
+INFO  09:25:51,610 | james.smtpserver | No maximum message size is enforced for this server.
+INFO  09:25:52,053 | james.smtpserver | Init SMTP Service done
+INFO  09:51:15,082 | james.smtpserver | ID=15522379 Connection established from activate.adobe.com (127.0.0.1)
+INFO  09:51:15,189 | james.smtpserver | ID=15522379 Successfully spooled mail Mail1321071675118-90299fcb-874a-4fd0-a61d-cf036ac2c5d3 from nikki@nikki.com on 127.0.0.1 for [nikki.punjabi@gmail.com, nikki.punjabi@gmail.com]
+INFO  09:51:15,239 | james.smtpserver | ID=15522379 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  09:51:26,987 | james.smtpserver | ID=19674168 Connection established from activate.adobe.com (127.0.0.1)
+INFO  09:51:26,998 | james.smtpserver | ID=19674168 Successfully spooled mail Mail1321071686996-4c85437b-8daf-4ec6-80ed-b4973244d86e from nikki@nikki.com on 127.0.0.1 for [nikki.punjabi@gmail.com, nikki.punjabi@gmail.com]
+INFO  09:51:27,000 | james.smtpserver | ID=19674168 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  10:29:41,534 | james.smtpserver | ID=25182056 Connection established from activate.adobe.com (127.0.0.1)
+INFO  10:29:41,546 | james.smtpserver | ID=25182056 Successfully spooled mail Mail1321073981544-b2f869f7-7ab7-4f12-bce8-67c6dea1fd1e from nikki@nikki.com on 127.0.0.1 for [nikki.punjabi@gmail.com, sunil@nikki.org]
+INFO  10:29:41,549 | james.smtpserver | ID=25182056 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  10:43:21,473 | james.smtpserver | ID=30871422 Connection established from activate.adobe.com (127.0.0.1)
+INFO  10:43:21,483 | james.smtpserver | ID=30871422 Successfully spooled mail Mail1321074801481-91cd4307-3800-46f1-9d1c-847289d78211 from nikki@nikki.com on 127.0.0.1 for [nikki.punjabi@gmail.com, sunil@nikki.org]
+INFO  10:43:21,485 | james.smtpserver | ID=30871422 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  11:12:31,096 | james.smtpserver | ID=22457552 Connection established from activate.adobe.com (127.0.0.1)
+INFO  11:12:31,107 | james.smtpserver | ID=22457552 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  11:29:59,296 | james.smtpserver | SMTP Service bound to: 0.0.0.0:25
+INFO  11:29:59,303 | james.smtpserver | SMTP Service is running on: chandapunjabi
+INFO  11:29:59,304 | james.smtpserver | SMTP Service handler hello name is: chandapunjabi
+INFO  11:29:59,304 | james.smtpserver | SMTP Service handler connection timeout is: 360
+INFO  11:29:59,304 | james.smtpserver | SMTP Service connection backlog is: 200
+INFO  11:29:59,304 | james.smtpserver | This SMTP server requires authentication.
+INFO  11:29:59,305 | james.smtpserver | No maximum message size is enforced for this server.
+INFO  11:29:59,762 | james.smtpserver | Init SMTP Service done
+INFO  11:39:33,804 | james.smtpserver | ID=30518135 Connection established from activate.adobe.com (127.0.0.1)
+INFO  11:39:33,915 | james.smtpserver | ID=30518135 Successfully spooled mail Mail1321078173842-f3a7dcfc-c14c-4248-9268-5d174fcd4053 from nikki@nikki.com on 127.0.0.1 for [zoeb@nikki.com]
+INFO  11:39:33,968 | james.smtpserver | ID=30518135 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  11:40:56,417 | james.smtpserver | ID=23179132 Connection established from activate.adobe.com (127.0.0.1)
+INFO  11:40:56,441 | james.smtpserver | ID=23179132 Successfully spooled mail Mail1321078256438-cd502fae-aa0d-44e5-a6e2-b5f477a524e5 from zoeb@nikki.com on 127.0.0.1 for [nikki.punjabi@gmail.com]
+INFO  11:40:56,444 | james.smtpserver | ID=23179132 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  11:49:16,938 | james.smtpserver | ID=29768027 Connection established from activate.adobe.com (127.0.0.1)
+INFO  11:49:16,950 | james.smtpserver | ID=29768027 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  11:55:04,239 | james.smtpserver | ID=31845463 Connection established from activate.adobe.com (127.0.0.1)
+INFO  11:55:04,254 | james.smtpserver | ID=31845463 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  11:58:31,696 | james.smtpserver | ID=33362934 Connection established from activate.adobe.com (127.0.0.1)
+INFO  11:58:31,707 | james.smtpserver | ID=33362934 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  19:53:17,360 | james.smtpserver | SMTP Service bound to: 0.0.0.0:25
+INFO  19:53:17,376 | james.smtpserver | SMTP Service is running on: chandapunjabi
+INFO  19:53:17,376 | james.smtpserver | SMTP Service handler hello name is: chandapunjabi
+INFO  19:53:17,376 | james.smtpserver | SMTP Service handler connection timeout is: 360
+INFO  19:53:17,376 | james.smtpserver | SMTP Service connection backlog is: 200
+INFO  19:53:17,376 | james.smtpserver | This SMTP server requires authentication.
+INFO  19:53:17,376 | james.smtpserver | No maximum message size is enforced for this server.
+INFO  19:53:17,859 | james.smtpserver | Init SMTP Service done

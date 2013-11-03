@@ -1,0 +1,36 @@
+INFO  09:52:08,250 | james.pop3server | POP3 Service bound to: 0.0.0.0:110
+INFO  09:52:08,250 | james.pop3server | POP3 Service is running on: NIKKIPUNJAB51C5
+INFO  09:52:08,250 | james.pop3server | POP3 Service handler hello name is: NIKKIPUNJAB51C5
+INFO  09:52:08,250 | james.pop3server | POP3 Service handler connection timeout is: 1200
+INFO  09:52:08,250 | james.pop3server | POP3 Service connection backlog is: 200
+INFO  09:52:08,281 | james.pop3server | Init POP3 Service done
+INFO  10:36:12,781 | james.pop3server | POP3 Service bound to: 0.0.0.0:110
+INFO  10:36:12,781 | james.pop3server | POP3 Service is running on: NIKKIPUNJAB51C5
+INFO  10:36:12,781 | james.pop3server | POP3 Service handler hello name is: NIKKIPUNJAB51C5
+INFO  10:36:12,781 | james.pop3server | POP3 Service handler connection timeout is: 1200
+INFO  10:36:12,781 | james.pop3server | POP3 Service connection backlog is: 200
+INFO  10:36:14,734 | james.pop3server | Init POP3 Service done
+INFO  13:35:50,101 | james.pop3server | POP3 Service bound to: 0.0.0.0:110
+INFO  13:35:50,101 | james.pop3server | POP3 Service is running on: NIKKIPUNJAB51C5
+INFO  13:35:50,101 | james.pop3server | POP3 Service handler hello name is: NIKKIPUNJAB51C5
+INFO  13:35:50,101 | james.pop3server | POP3 Service handler connection timeout is: 1200
+INFO  13:35:50,101 | james.pop3server | POP3 Service connection backlog is: 200
+INFO  13:35:50,148 | james.pop3server | Init POP3 Service done
+INFO  13:53:57,112 | james.pop3server | POP3 Service bound to: 0.0.0.0:110
+INFO  13:53:57,112 | james.pop3server | POP3 Service is running on: NIKKIPUNJAB51C5
+INFO  13:53:57,112 | james.pop3server | POP3 Service handler hello name is: NIKKIPUNJAB51C5
+INFO  13:53:57,112 | james.pop3server | POP3 Service handler connection timeout is: 1200
+INFO  13:53:57,112 | james.pop3server | POP3 Service connection backlog is: 200
+INFO  13:53:57,159 | james.pop3server | Init POP3 Service done
+INFO  13:57:24,133 | james.pop3server | POP3 Service bound to: 0.0.0.0:110
+INFO  13:57:24,133 | james.pop3server | POP3 Service is running on: NIKKIPUNJAB51C5
+INFO  13:57:24,133 | james.pop3server | POP3 Service handler hello name is: NIKKIPUNJAB51C5
+INFO  13:57:24,133 | james.pop3server | POP3 Service handler connection timeout is: 1200
+INFO  13:57:24,133 | james.pop3server | POP3 Service connection backlog is: 200
+INFO  13:57:24,180 | james.pop3server | Init POP3 Service done
+INFO  13:59:13,859 | james.pop3server | POP3 Service bound to: 0.0.0.0:110
+INFO  13:59:13,859 | james.pop3server | POP3 Service is running on: NIKKIPUNJAB51C5
+INFO  13:59:13,859 | james.pop3server | POP3 Service handler hello name is: NIKKIPUNJAB51C5
+INFO  13:59:13,859 | james.pop3server | POP3 Service handler connection timeout is: 1200
+INFO  13:59:13,859 | james.pop3server | POP3 Service connection backlog is: 200
+INFO  13:59:13,906 | james.pop3server | Init POP3 Service done

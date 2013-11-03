@@ -1,0 +1,16 @@
+INFO  18:30:15,165 | james.dnsservice | Autodiscovery is enabled - trying to discover your system's DNS Servers
+INFO  18:30:15,299 | james.dnsservice | No DNS servers have been specified or found by autodiscovery - adding 127.0.0.1
+INFO  18:30:15,302 | james.dnsservice | DNS Server is: 127.0.0.1
+INFO  18:30:15,684 | james.dnsservice | Registered cache, resolver and search paths as DNSJava defaults
+INFO  18:30:21,334 | james.dnsservice | Couldn't resolve MX records for domain yahoo.co.in.
+INFO  18:30:21,334 | james.dnsservice | Couldn't resolve MX records for domain yahoo.co.in.
+INFO  18:30:21,334 | james.dnsservice | Couldn't resolve MX records for domain yahoo.co.in.
+ERROR 18:30:21,339 | james.dnsservice | Couldn't resolve IP address for host yahoo.co.in.
+ERROR 18:30:21,340 | james.dnsservice | Couldn't resolve IP address for host yahoo.co.in.
+ERROR 18:30:21,341 | james.dnsservice | Couldn't resolve IP address for host yahoo.co.in.
+INFO  21:30:21,676 | james.dnsservice | Couldn't resolve MX records for domain yahoo.co.in.
+INFO  21:30:21,677 | james.dnsservice | Couldn't resolve MX records for domain yahoo.co.in.
+INFO  21:30:21,677 | james.dnsservice | Couldn't resolve MX records for domain yahoo.co.in.
+ERROR 21:30:21,680 | james.dnsservice | Couldn't resolve IP address for host yahoo.co.in.
+ERROR 21:30:21,680 | james.dnsservice | Couldn't resolve IP address for host yahoo.co.in.
+ERROR 21:30:21,680 | james.dnsservice | Couldn't resolve IP address for host yahoo.co.in.

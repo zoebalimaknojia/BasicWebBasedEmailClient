@@ -1,0 +1,17 @@
+INFO  09:05:25,531 | james.dnsservice | Autodiscovery is enabled - trying to discover your system's DNS Servers
+INFO  09:05:25,687 | james.dnsservice | Adding autodiscovered server 10.211.55.1
+INFO  09:05:25,687 | james.dnsservice | Adding autodiscovered search path localdomain.
+INFO  09:05:25,703 | james.dnsservice | DNS Server is: 10.211.55.1
+INFO  09:05:25,703 | james.dnsservice | Registered cache, resolver and search paths as DNSJava defaults
+INFO  14:34:03,546 | james.dnsservice | Autodiscovery is enabled - trying to discover your system's DNS Servers
+INFO  14:34:03,578 | james.dnsservice | Adding autodiscovered server 10.211.55.1
+INFO  14:34:03,578 | james.dnsservice | Adding autodiscovered search path localdomain.
+INFO  14:34:03,578 | james.dnsservice | DNS Server is: 10.211.55.1
+INFO  14:34:03,593 | james.dnsservice | Registered cache, resolver and search paths as DNSJava defaults
+INFO  17:07:22,390 | james.dnsservice | Autodiscovery is enabled - trying to discover your system's DNS Servers
+INFO  17:07:22,406 | james.dnsservice | Adding autodiscovered server 10.211.55.1
+INFO  17:07:22,406 | james.dnsservice | Adding autodiscovered search path localdomain.
+INFO  17:07:22,406 | james.dnsservice | DNS Server is: 10.211.55.1
+INFO  17:07:22,421 | james.dnsservice | Registered cache, resolver and search paths as DNSJava defaults
+INFO  19:25:57,236 | james.dnsservice | Couldn't resolve MX records for domain localhost.
+ERROR 19:25:57,238 | james.dnsservice | Couldn't resolve IP address for host localhost.

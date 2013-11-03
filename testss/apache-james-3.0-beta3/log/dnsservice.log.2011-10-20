@@ -1,0 +1,46 @@
+INFO  00:49:11,721 | james.dnsservice | Couldn't resolve MX records for domain gmail.com.
+ERROR 00:49:11,724 | james.dnsservice | Couldn't resolve IP address for host gmail.com.
+INFO  00:54:12,019 | james.dnsservice | Couldn't resolve MX records for domain gmail.com.
+ERROR 00:54:12,019 | james.dnsservice | Couldn't resolve IP address for host gmail.com.
+INFO  01:04:06,222 | james.dnsservice | Couldn't resolve MX records for domain gmail.com.
+ERROR 01:04:06,249 | james.dnsservice | Couldn't resolve IP address for host gmail.com.
+INFO  01:04:12,328 | james.dnsservice | Couldn't resolve MX records for domain gmail.com.
+ERROR 01:04:12,331 | james.dnsservice | Couldn't resolve IP address for host gmail.com.
+INFO  01:09:06,520 | james.dnsservice | Couldn't resolve MX records for domain gmail.com.
+ERROR 01:09:06,523 | james.dnsservice | Couldn't resolve IP address for host gmail.com.
+INFO  01:17:18,995 | james.dnsservice | Couldn't resolve MX records for domain gmail.com.
+ERROR 01:17:18,996 | james.dnsservice | Couldn't resolve IP address for host gmail.com.
+INFO  01:19:06,814 | james.dnsservice | Couldn't resolve MX records for domain gmail.com.
+ERROR 01:19:06,815 | james.dnsservice | Couldn't resolve IP address for host gmail.com.
+INFO  01:22:19,288 | james.dnsservice | Couldn't resolve MX records for domain gmail.com.
+ERROR 01:22:19,288 | james.dnsservice | Couldn't resolve IP address for host gmail.com.
+INFO  01:26:49,001 | james.dnsservice | Couldn't resolve MX records for domain gmail.com.
+ERROR 01:26:49,003 | james.dnsservice | Couldn't resolve IP address for host gmail.com.
+INFO  01:30:09,938 | james.dnsservice | Couldn't resolve MX records for domain gmail.com.
+ERROR 01:30:09,939 | james.dnsservice | Couldn't resolve IP address for host gmail.com.
+INFO  01:31:49,277 | james.dnsservice | Couldn't resolve MX records for domain gmail.com.
+ERROR 01:31:49,277 | james.dnsservice | Couldn't resolve IP address for host gmail.com.
+INFO  06:53:36,483 | james.dnsservice | Autodiscovery is enabled - trying to discover your system's DNS Servers
+INFO  06:53:36,576 | james.dnsservice | Adding autodiscovered server 8.8.8.8
+INFO  06:53:36,576 | james.dnsservice | Adding autodiscovered server 4.2.2.2
+INFO  06:53:36,592 | james.dnsservice | DNS Server is: 8.8.8.8
+INFO  06:53:36,592 | james.dnsservice | DNS Server is: 4.2.2.2
+INFO  06:53:36,639 | james.dnsservice | Registered cache, resolver and search paths as DNSJava defaults
+INFO  09:36:28,388 | james.dnsservice | Autodiscovery is enabled - trying to discover your system's DNS Servers
+INFO  09:36:28,482 | james.dnsservice | Adding autodiscovered server 8.8.8.8
+INFO  09:36:28,482 | james.dnsservice | Adding autodiscovered server 113.20.19.45
+INFO  09:36:28,497 | james.dnsservice | DNS Server is: 8.8.8.8
+INFO  09:36:28,497 | james.dnsservice | DNS Server is: 113.20.19.45
+INFO  09:36:28,601 | james.dnsservice | Registered cache, resolver and search paths as DNSJava defaults
+INFO  18:09:51,321 | james.dnsservice | Autodiscovery is enabled - trying to discover your system's DNS Servers
+INFO  18:09:51,335 | james.dnsservice | Adding autodiscovered server 8.8.8.8
+INFO  18:09:51,335 | james.dnsservice | Adding autodiscovered server 113.20.19.45
+INFO  18:09:51,335 | james.dnsservice | DNS Server is: 8.8.8.8
+INFO  18:09:51,336 | james.dnsservice | DNS Server is: 113.20.19.45
+INFO  18:09:51,392 | james.dnsservice | Registered cache, resolver and search paths as DNSJava defaults
+INFO  22:00:00,972 | james.dnsservice | Autodiscovery is enabled - trying to discover your system's DNS Servers
+INFO  22:00:01,001 | james.dnsservice | Adding autodiscovered server 8.8.8.8
+INFO  22:00:01,002 | james.dnsservice | Adding autodiscovered server 113.20.19.45
+INFO  22:00:01,005 | james.dnsservice | DNS Server is: 8.8.8.8
+INFO  22:00:01,005 | james.dnsservice | DNS Server is: 113.20.19.45
+INFO  22:00:01,035 | james.dnsservice | Registered cache, resolver and search paths as DNSJava defaults

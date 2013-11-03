@@ -1,0 +1,285 @@
+INFO  19:06:11,816 | org.apache.james.container.spring.context.JamesServerApplicationContext | Refreshing org.apache.james.container.spring.context.JamesServerApplicationContext@15e83f9: startup date [Thu Oct 27 19:06:11 IST 2011]; root of context hierarchy
+INFO  19:06:26,824 | org.apache.james.container.spring.context.JamesServerApplicationContext | Bean 'logprovider' of type [class org.apache.james.container.spring.lifecycle.LogProviderImpl] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+INFO  19:06:28,013 | james.mailrepositorystore | JamesMailStore init...
+INFO  19:06:28,036 | james.mailrepositorystore | Registering Repository instance of class org.apache.james.mailrepository.file.FileMailRepository to handle file protocol requests for repositories with key file
+INFO  19:06:28,036 | james.mailrepositorystore | Registering Repository instance of class org.apache.james.mailrepository.jdbc.JDBCMailRepository to handle db protocol requests for repositories with key db
+INFO  19:06:28,037 | james.mailrepositorystore | Registering Repository instance of class org.apache.james.mailrepository.jdbc.JDBCMailRepository to handle dbfile protocol requests for repositories with key dbfile
+INFO  19:06:28,037 | james.mailrepositorystore | Registering Repository instance of class org.apache.james.mailrepository.file.MBoxMailRepository to handle mbox protocol requests for repositories with key mbox
+INFO  19:06:29,467 | james.dnsservice | Autodiscovery is enabled - trying to discover your system's DNS Servers
+INFO  19:06:29,517 | james.dnsservice | Adding autodiscovered server 8.8.8.8
+INFO  19:06:29,518 | james.dnsservice | Adding autodiscovered server 113.20.19.45
+INFO  19:06:29,522 | james.dnsservice | DNS Server is: 8.8.8.8
+INFO  19:06:29,523 | james.dnsservice | DNS Server is: 113.20.19.45
+INFO  19:06:29,559 | james.dnsservice | Registered cache, resolver and search paths as DNSJava defaults
+INFO  19:06:30,597 | james.domainlist | Set autodetect to: true
+INFO  19:06:30,603 | james.domainlist | Set autodetectIP to: true
+WARN  19:06:34,990 | james.mailetcontext | The specified postmaster address ( postmaster@localhost ) is not a local address.  This is not necessarily a problem, but it does mean that emails addressed to the postmaster will be routed to another server.  For some configurations this may cause problems.
+INFO  19:06:35,164 | james.mailprocessor | Matcher All instantiated.
+INFO  19:06:35,226 | james.mailprocessor | Mailet PostmasterAlias instantiated.
+INFO  19:06:35,226 | james.mailprocessor | Matcher RelayLimit=30 instantiated.
+INFO  19:06:35,226 | james.mailprocessor | Mailet Null instantiated.
+INFO  19:06:35,226 | james.mailprocessor | Matcher SMTPAuthSuccessful instantiated.
+INFO  19:06:35,242 | james.mailprocessor | Mailet ToProcessor instantiated.
+INFO  19:06:35,242 | james.mailprocessor | Matcher InSpammerBlacklist=dnsbl.njabl.org. instantiated.
+INFO  19:06:35,242 | james.mailprocessor | Mailet ToProcessor instantiated.
+INFO  19:06:35,242 | james.mailprocessor | Matcher All instantiated.
+INFO  19:06:35,242 | james.mailprocessor | Mailet ToProcessor instantiated.
+INFO  19:06:35,523 | james.mailprocessor | Matcher SMTPAuthSuccessful instantiated.
+INFO  19:06:35,523 | james.mailprocessor | Mailet SetMimeHeader instantiated.
+INFO  19:06:35,523 | james.mailprocessor | Matcher All instantiated.
+INFO  19:06:35,538 | james.mailprocessor | Mailet RecipientRewriteTable instantiated.
+INFO  19:06:35,554 | james.mailprocessor | Matcher RecipientIsLocal instantiated.
+INFO  19:06:35,554 | james.mailprocessor | Mailet RecipientToLowerCase instantiated.
+INFO  19:06:35,554 | james.mailprocessor | Matcher RecipientIsLocal instantiated.
+INFO  19:06:35,663 | james.mailprocessor | Mailet LocalDelivery instantiated.
+INFO  19:06:35,663 | james.mailprocessor | Matcher HostIsLocal instantiated.
+INFO  19:06:35,663 | james.mailprocessor | Mailet ToProcessor instantiated.
+INFO  19:06:35,663 | james.mailprocessor | Matcher All instantiated.
+INFO  19:06:35,682 | james.mailetcontext | maxRetries is larger than total number of attempts specified.  Increasing last delayTime with 19 attempts 
+INFO  19:06:35,683 | james.mailetcontext | Delay of 21600000 msecs is now attempted: 20 times
+INFO  19:06:35,690 | james.mailprocessor | Mailet RemoteDelivery instantiated.
+INFO  19:06:35,898 | james.mailprocessor | Matcher All instantiated.
+INFO  19:06:35,949 | james.mailrepositorystore | Init org.apache.james.repository.file.FilePersistentObjectRepository Store
+INFO  19:06:35,989 | james.mailrepositorystore | org.apache.james.repository.file.FilePersistentObjectRepository opened in ..\var\mail\error
+INFO  19:06:35,993 | james.mailrepositorystore | Init org.apache.james.repository.file.FilePersistentStreamRepository Store
+INFO  19:06:35,994 | james.mailrepositorystore | org.apache.james.repository.file.FilePersistentStreamRepository opened in ..\var\mail\error
+INFO  19:06:36,009 | james.mailrepositorystore | added repository: file://var/mail/error/->org.apache.james.mailrepository.file.FileMailRepository
+INFO  19:06:36,010 | james.mailprocessor | Mailet ToRepository instantiated.
+INFO  19:06:36,092 | james.mailprocessor | Matcher All instantiated.
+INFO  19:06:36,093 | james.mailrepositorystore | Init org.apache.james.repository.file.FilePersistentObjectRepository Store
+INFO  19:06:36,094 | james.mailrepositorystore | org.apache.james.repository.file.FilePersistentObjectRepository opened in ..\var\mail\spam
+INFO  19:06:36,094 | james.mailrepositorystore | Init org.apache.james.repository.file.FilePersistentStreamRepository Store
+INFO  19:06:36,095 | james.mailrepositorystore | org.apache.james.repository.file.FilePersistentStreamRepository opened in ..\var\mail\spam
+INFO  19:06:36,096 | james.mailrepositorystore | added repository: file://var/mail/spam/->org.apache.james.mailrepository.file.FileMailRepository
+INFO  19:06:36,096 | james.mailprocessor | Mailet ToRepository instantiated.
+INFO  19:06:36,150 | james.mailprocessor | Matcher All instantiated.
+INFO  19:06:36,151 | james.mailrepositorystore | Init org.apache.james.repository.file.FilePersistentObjectRepository Store
+INFO  19:06:36,152 | james.mailrepositorystore | org.apache.james.repository.file.FilePersistentObjectRepository opened in ..\var\mail\address-error
+INFO  19:06:36,153 | james.mailrepositorystore | Init org.apache.james.repository.file.FilePersistentStreamRepository Store
+INFO  19:06:36,155 | james.mailrepositorystore | org.apache.james.repository.file.FilePersistentStreamRepository opened in ..\var\mail\address-error
+INFO  19:06:36,156 | james.mailrepositorystore | added repository: file://var/mail/address-error/->org.apache.james.mailrepository.file.FileMailRepository
+INFO  19:06:36,156 | james.mailprocessor | Mailet ToRepository instantiated.
+INFO  19:06:36,204 | james.mailprocessor | Matcher All instantiated.
+INFO  19:06:36,209 | james.mailrepositorystore | Init org.apache.james.repository.file.FilePersistentObjectRepository Store
+INFO  19:06:36,210 | james.mailrepositorystore | org.apache.james.repository.file.FilePersistentObjectRepository opened in ..\var\mail\relay-denied
+INFO  19:06:36,211 | james.mailrepositorystore | Init org.apache.james.repository.file.FilePersistentStreamRepository Store
+INFO  19:06:36,211 | james.mailrepositorystore | org.apache.james.repository.file.FilePersistentStreamRepository opened in ..\var\mail\relay-denied
+INFO  19:06:36,212 | james.mailrepositorystore | added repository: file://var/mail/relay-denied/->org.apache.james.mailrepository.file.FileMailRepository
+INFO  19:06:36,213 | james.mailprocessor | Mailet ToRepository instantiated.
+INFO  19:06:36,259 | james.mailprocessor | Matcher All instantiated.
+INFO  19:06:36,464 | james.mailprocessor | Mailet DSNBounce instantiated.
+INFO  19:06:36,512 | james.mailspooler | org.apache.james.mailetcontainer.impl.JamesMailSpooler init...
+INFO  19:06:36,512 | james.mailspooler | org.apache.james.mailetcontainer.impl.JamesMailSpooler uses 20 Thread(s)
+INFO  19:06:36,515 | james.mailspooler | Run org.apache.james.mailetcontainer.impl.JamesMailSpooler: dequeuer-1
+INFO  19:06:36,518 | james.mailspooler | Run org.apache.james.mailetcontainer.impl.JamesMailSpooler: dequeuer-2
+INFO  19:06:36,518 | james.mailspooler | Queue=MailQueue:spool
+INFO  19:06:36,519 | james.mailspooler | Queue=MailQueue:spool
+INFO  19:06:36,530 | james.mailetcontext | Attempting delivery of Mail1318948929880-8a268b3b-2ed9-43c8-a556-0a51f04c3bd2-to-yahoo.co.in to host mx1.mail.in.yahoo.com. at 180.222.96.138 from nikki@nikki.com for addresses [nikki_a1591@yahoo.co.in]
+INFO  19:06:36,530 | james.fetchmail | FetchMail Disabled
+INFO  19:06:36,543 | james.mailetcontext | Attempting delivery of Mail1318948714957-9b8e8224-9343-41d5-ac67-ba0e01d1e5a8-to-yahoo.co.in to host mx1.mail.in.yahoo.com. at 180.222.96.138 from nikki@nikki.com for addresses [nikki_a1591@yahoo.co.in]
+INFO  19:06:36,545 | james.mailetcontext | Attempting delivery of Mail1318949969880-0ad385d5-889e-49e9-8b95-d5bfe2957268-to-yahoo.co.in to host mx1.mail.in.yahoo.com. at 180.222.96.138 from nikki@nikki.com for addresses [nikki_a1591@yahoo.co.in]
+INFO  19:06:36,790 | james.smtpserver | SMTP Service bound to: 0.0.0.0:25
+INFO  19:06:36,805 | james.smtpserver | SMTP Service is running on: chandapunjabi
+INFO  19:06:36,805 | james.smtpserver | SMTP Service handler hello name is: chandapunjabi
+INFO  19:06:36,805 | james.smtpserver | SMTP Service handler connection timeout is: 360
+INFO  19:06:36,805 | james.smtpserver | SMTP Service connection backlog is: 200
+INFO  19:06:36,805 | james.smtpserver | This SMTP server requires authentication.
+INFO  19:06:36,805 | james.smtpserver | No maximum message size is enforced for this server.
+INFO  19:06:37,102 | james.smtpserver | Init SMTP Service done
+INFO  19:06:37,117 | james.lmtpserver | LMTP Service disabled by configuration
+INFO  19:06:37,180 | james.pop3server | POP3 Service bound to: 0.0.0.0:110
+INFO  19:06:37,180 | james.pop3server | POP3 Service is running on: chandapunjabi
+INFO  19:06:37,180 | james.pop3server | POP3 Service handler hello name is: chandapunjabi
+INFO  19:06:37,180 | james.pop3server | POP3 Service handler connection timeout is: 1200
+INFO  19:06:37,180 | james.pop3server | POP3 Service connection backlog is: 200
+INFO  19:06:37,258 | james.pop3server | Init POP3 Service done
+INFO  19:06:37,395 | james.imapserver | IMAP Service bound to: 0.0.0.0:143
+INFO  19:06:37,410 | james.imapserver | IMAP Service is running on: chandapunjabi
+INFO  19:06:37,411 | james.imapserver | IMAP Service handler hello name is: chandapunjabi
+INFO  19:06:37,411 | james.imapserver | IMAP Service handler connection timeout is: 300
+INFO  19:06:37,412 | james.imapserver | IMAP Service connection backlog is: 200
+INFO  19:06:37,447 | james.imapserver | Init IMAP Service done
+INFO  19:06:37,583 | james.mailetcontext | Could not connect to SMTP host: 180.222.96.138, port: 25, response: 553
+INFO  19:06:37,585 | james.mailetcontext | Temporary exception delivering mail (Mail1318949969880-0ad385d5-889e-49e9-8b95-d5bfe2957268-to-yahoo.co.in: 
+INFO  19:06:37,587 | james.mailetcontext | Storing message Mail1318949969880-0ad385d5-889e-49e9-8b95-d5bfe2957268-to-yahoo.co.in into outgoing after 8 retries
+INFO  19:06:37,608 | james.mailetcontext | Could not connect to SMTP host: 180.222.96.138, port: 25, response: 553
+INFO  19:06:37,608 | james.mailetcontext | Temporary exception delivering mail (Mail1318948714957-9b8e8224-9343-41d5-ac67-ba0e01d1e5a8-to-yahoo.co.in: 
+INFO  19:06:37,609 | james.mailetcontext | Storing message Mail1318948714957-9b8e8224-9343-41d5-ac67-ba0e01d1e5a8-to-yahoo.co.in into outgoing after 8 retries
+INFO  19:06:37,670 | james.mailetcontext | Could not connect to SMTP host: 180.222.96.138, port: 25, response: 553
+INFO  19:06:37,671 | james.mailetcontext | Temporary exception delivering mail (Mail1318948929880-8a268b3b-2ed9-43c8-a556-0a51f04c3bd2-to-yahoo.co.in: 
+INFO  19:06:37,673 | james.mailetcontext | Storing message Mail1318948929880-8a268b3b-2ed9-43c8-a556-0a51f04c3bd2-to-yahoo.co.in into outgoing after 8 retries
+INFO  19:06:39,004 | org.apache.james.container.spring.Main | Apache James Server is successfully started in 27235 milliseconds.
+INFO  19:06:40,007 | james.imapserver | ID=3681765 Connection established from activate.adobe.com (127.0.0.1)
+INFO  19:06:44,674 | james.imapserver | ID=19796980 Connection established from activate.adobe.com (127.0.0.1)
+WARN  19:06:45,626 | org.apache.james.mime4j.parser.MimeEntity | Invalid header encountered
+WARN  19:06:45,757 | org.apache.james.mime4j.parser.MimeEntity | Unexpected end of headers detected. Higher level boundary detected or EOF reached.
+WARN  19:06:45,757 | org.apache.james.mime4j.parser.MimeEntity | Invalid header encountered
+WARN  19:06:45,758 | org.apache.james.mime4j.parser.MimeEntity | Body part ended prematurely. Boundary detected in header or EOF reached.
+WARN  19:06:45,773 | org.apache.james.mime4j.parser.MimeEntity | Unexpected end of headers detected. Higher level boundary detected or EOF reached.
+WARN  19:06:45,773 | org.apache.james.mime4j.parser.MimeEntity | Invalid header encountered
+WARN  19:06:45,774 | org.apache.james.mime4j.parser.MimeEntity | Body part ended prematurely. Boundary detected in header or EOF reached.
+WARN  19:06:45,818 | org.apache.james.mime4j.parser.MimeEntity | Unexpected end of headers detected. Higher level boundary detected or EOF reached.
+WARN  19:06:45,819 | org.apache.james.mime4j.parser.MimeEntity | Invalid header encountered
+WARN  19:06:45,819 | org.apache.james.mime4j.parser.MimeEntity | Body part ended prematurely. Boundary detected in header or EOF reached.
+WARN  19:06:45,827 | org.apache.james.mime4j.parser.MimeEntity | Unexpected end of headers detected. Higher level boundary detected or EOF reached.
+WARN  19:06:45,827 | org.apache.james.mime4j.parser.MimeEntity | Invalid header encountered
+WARN  19:06:45,827 | org.apache.james.mime4j.parser.MimeEntity | Body part ended prematurely. Boundary detected in header or EOF reached.
+WARN  19:06:45,835 | org.apache.james.mime4j.parser.MimeEntity | Unexpected end of headers detected. Higher level boundary detected or EOF reached.
+WARN  19:06:45,835 | org.apache.james.mime4j.parser.MimeEntity | Invalid header encountered
+WARN  19:06:45,836 | org.apache.james.mime4j.parser.MimeEntity | Body part ended prematurely. Boundary detected in header or EOF reached.
+WARN  19:06:45,843 | org.apache.james.mime4j.parser.MimeEntity | Unexpected end of headers detected. Higher level boundary detected or EOF reached.
+WARN  19:06:45,843 | org.apache.james.mime4j.parser.MimeEntity | Invalid header encountered
+WARN  19:06:45,843 | org.apache.james.mime4j.parser.MimeEntity | Body part ended prematurely. Bïundary detected in header or EOF reached.
+WARN  19:06:45,857 | org.apache.james.mime4j.parser.MimeEntity | Unexpected end of headers detected. Higher level boundary detected or EOF reached.
+WARN  19:06:45,858 | org.apache.james.mime4j.parser.MimeEntity | Invalid header encountered
+WARN  19:06:45,858 | org.apache.james.mime4j.parser.MimeEntity | Body part ended prematurely. Boundary detected in header or EOF reached.
+WARN  19:06:45,865 | org.apache.james.mime4j.parser.MimeEntity | Unexpected end of headers detected. Higher level boundary detected or EOF reached.
+WARN  19:06:45,866 | org.apache.james.mime4j.parser.MimeEntity | Invalid header encountered
+WARN  19:06:45,866 | org.apache.james.mime4j.parser.MimeEntity | Body part ended prematurely. Boundary detected in header or EOF reached.
+WARN  19:06:45,874 | org.apache.james.mime4j.parser.MimeEntity | Unexpected end of headers detected. Higher level boundary detected or EOF reached.
+WARN  19:06:45,874 | org.apache.james.mime4j.parser.MimeEntity | Invalid header encountered
+WARN  19:06:45,874 | org.apache.james.mime4j.parser.MimeEntity | Body part ended prematurely. Boundary detected in header or EOF reached.
+WARN  19:06:45,882 | org.apache.james.mime4j.parser.MimeEntity | Unexpected end of headers detected. Higher level boundary detected or EOF reached.
+WARN  19:06:45,882 | org.apache.james.mime4j.parser.MimeEntity | Invalid header encountered
+WARN  19:06:45,882 | org.apache.james.mime4j.parser.MimeEntity | Body part ended prematurely. Boundary detected in header or EOF reached.
+WARN  19:06:45,890 | org.apache.james.mime4j.parser.MimeEntity | Unexpected end of headers detected. Higher level boundary detected or EOF reached.
+WARN  19:06:45,890 | org.apache.james.mime4j.parser.MimeEntity | Invalid header encountered
+WARN  19:06:45,890 | org.apache.james.mime4j.parser.MimeEntity | Body part ended prematurely. Boundary detected in header or EOF reached.
+WARN  19:06:45,898 | org.apache.james.mime4j.parser.MimeEntity | Unexpected end of headers detected. Higher level boundary detected or EOF reached.
+WARN  19:06:45,898 | org.apache.james.mime4j.parser.MimeEntity | Invalid header encountered
+WARN  19:06:45,898 | org.apache.james.mime4j.parser.MimeEntity | Body part ended prematurely. Boundary detected in header or EOF reached.
+WARN  19:06:45,906 | org.apache.james.mime4j.parser.MimeEntity | Unexpected end of headers detected. Higher level boundary detected or EOF reached.
+WARN  19:06:45,906 | org.apache.james.mime4j.parser.MimeEntity | Invalid header encountered
+WARN  19:06:45,906 | org.apache.james.mime4j.parser.MimeEntity | Body part ended prematurely. Boundary detected in header or EOF reached.
+WARN  19:06:45,922 | org.apache.james.mime4j.parser.MimeEntity | Unexpected end of headers detected. Higher level boundary detected or EOF reached.
+WARN  19:06:45,923 | org.apache.james.mime4j.parser.MimeEntity | Invalid header encountered
+WARN  19:06:45,924 | org.apache.james.mime4j.parser.MimeEntity | Body part ended prematurely. Boundary detected in header or EOF reached.
+WARN  19:06:45,932 | org.apache.james.mime4j.parser.MimeEntity | Unexpected end of headers detected. Higher level boundary detected or EOF reached.
+WARN  19:06:45,932 | org.apache.james.mime4j.parser.MimeEntity | Invalid header encountered
+WARN  19:06:45,932 | org.apache.james.mime4j.parser.MimeEntity | Body part ended prematurely. Boundary detected in header or EOF reached.
+WARN  19:06:45,939 | org.apache.james.mime4j.parser.MimeEntity | Unexpected end of headers detected. Higher level boundary detected or EOF reached.
+WARN  19:06:45,940 | org.apache.james.mime4j.parser.MimeEntity | Invalid header encountered
+WARN  19:06:45,940 | org.apache.james.mime4j.parser.MimeEntity | Body part ended prematurely. Boundary detected in header or EOF reached.
+WARN  19:06:45,947 | org.apache.james.mime4j.parser.MimeEntity | Unexpected end of headers detected. Higher level boundary detected or EOF reached.
+WARN  19:06:45,947 | org.apache.james.mime4j.parser.MimeEntity | Invalid header encountered
+WARN  19:06:45,947 | org.apache.james.mime4j.parser.MimeEntity | Body part ended prematurely. Boundary detected in header or EOF reached.
+WARN  19:06:45,954 | org.apache.james.mime4j.parser.MimeEntity | Unexpected end of headers detected. Higher level boundary detected or EOF reached.
+WARN  19:06:45,954 | org.apache.james.mime4j.parser.MimeEntity | Invalid header encountered
+WARN  19:06:45,955 | org.apache.james.mime4j.parser.MimeEntity | Body part ended prematurely. Boundary detected in header or EOF reached.
+WARN  19:06:45,962 | org.apache.james.mime4j.parser.MimeEntity | Unexpected end of headers detected. Higher level boundary detected or EOF reached.
+WARN  19:06:45,962 | org.apache.james.mime4j.parser.MimeEntity | Invalid header encountered
+WARN  19:06:45,962 | org.apache.james.mime4j.parser.MimeEntity | Body part ended prematurely. Boundary detected in header or EOF reached.
+WARN  19:06:45,968 | org.apache.james.mime4j.parser.MimeEntity | Unexpected end of headers detected. Higher level boundary detected or EOF reached.
+WARN  19:06:45,968 | org.apache.james.mime4j.parser.MimeEntity | Invalid header encountered
+WARN  19:06:45,969 | org.apache.james.mime4j.parser.MimeEntity | Body part ended prematurely. Boundary detected in header or EOF reached.
+WARN  19:06:45,975 | org.apache.james.mime4j.parser.MimeEntity | Unexpected end of headers detected. Higher level boundary detected or EOF reached.
+WARN  19:06:45,975 | org.apache.james.mime4j.parser.MimeEntity | Invalid header encountered
+WARN  19:06:45,975 | org.apache.james.mime4j.parser.MimeEntity | Body part ended prematurely. Boundary detected in header or EOF reached.
+WARN  19:06:46,008 | org.apache.james.mime4j.parser.MimeEntity | Unexpected end of headers detected. Higher level boundary detected or EOF reached.
+WARN  19:06:46,009 | org.apache.james.mime4j.parser.MimeEntity | Invalid header encountered
+WARN  19:06:46,009 | org.apache.james.mime4j.parser.MimeEntity | Body part ended prematurely. Boundary detected in header or EOF reached.
+WARN  19:06:46,015 | org.apache.james.mime4j.parser.MimeEntity | Unexpected end of headers detected. Higher level boundary detected or EOF reached.
+WARN  19:06:46,016 | org.apache.james.mime4j.parser.MimeEntity | Invalid header encountered
+WARN  19:06:46,016 | org.apache.james.mime4j.parser.MimeEntity | Body part ended prematurely. Boundary detected in header or EOF reached.
+WARN  19:06:46,022 | org.apache.james.mime4j.parser.MimeEntity | Unexpected end of headers detected. Higher level boundary detected or EOF reached.
+WARN  19:06:46,023 | org.apache.james.mime4j.parser.MimeEntity | Invalid header encountered
+WARN  19:06:46,023 | org.apache.james.mime4j.parser.MimeEntity | Body part ended prematurely. Boundary detected in header or EOF reached.
+WARN  19:06:46,026 | org.apache.james.mime4j.parser.MimeEntity | Unexpected end of headers detected. Higher level boundary detected or EOF reached.
+WARN  19:06:46,026 | org.apache.james.mime4j.parser.MimeEntity | Invalid header encountered
+WARN  19:06:46,026 | org.apache.james.mime4j.parser.MimeEntity | Body part ended prematurely. Boundary detected in header or EOF reached.
+WARN  19:06:46,026 | org.apache.james.mime4j.parser.MimeEntity | Unexpected end of headers detected. Higher level boundary detected or EOF reached.
+WARN  19:06:46,026 | org.apache.james.mime4j.parser.MimeEntity | Invalid header encountered
+WARN  19:06:46,026 | org.apache.james.mime4j.parser.MimeEntity | Body part ended prematurely. Boundary detected in header or EOF reached.
+INFO  19:06:49,986 | james.imapserver | ID=12956797 Connection established from activate.adobe.com (127.0.0.1)
+INFO  19:06:52,179 | james.imapserver | ID=9977825 Connection established from activate.adobe.com (127.0.0.1)
+INFO  19:06:54,376 | james.pop3server | ID=25766872 Connection established from activate.adobe.com (127.0.0.1)
+INFO  19:06:54,430 | james.imapserver | ID=12956797 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  19:06:54,430 | james.imapserver | ID=9977825 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  19:06:57,589 | james.imapserver | ID=1288232 Connection established from activate.adobe.com (127.0.0.1)
+WARN  19:06:57,675 | org.apache.james.mime4j.parser.MimeEntity | Invalid header encountered
+WARN  19:06:57,704 | org.apache.james.mime4j.parser.MimeEntity | Unexpected end of headers detected. Higher level boundary detected or EOF reached.
+WARN  19:06:57,705 | org.apache.james.mime4j.parser.MimeEntity | Invalid header encountered
+WARN  19:06:57,705 | org.apache.james.mime4j.parser.MimeEntity | Body part ended prematurely. Boundary detected in header or EOF reached.
+WARN  19:06:57,716 | org.apache.james.mime4j.parser.MimeEntity | Unexpected end of headers detected. Higher level boundary detected or EOF reached.
+WARN  19:06:57,716 | org.apache.james.mime4j.parser.MimeEntity | Invalid header encountered
+WARN  19:06:57,716 | org.apache.james.mime4j.parser.MimeEntity | Body part ended prematurely. Boundary detected in header or EOF reached.
+WARN  19:06:57,753 | org.apache.james.mime4j.parser.MimeEntity | Unexpected end of headers detected. Higher level boundary detected or EOF reached.
+WARN  19:06:57,753 | org.apache.james.mime4j.parser.MimeEntity | Invalid header encountered
+WARN  19:06:57,753 | org.apache.james.mime4j.parser.MimeEntity | Body part ended prematurely. Boundary detected in header or EOF reached.
+WARN  19:06:57,759 | org.apache.james.mime4j.parser.MimeEntity | Unexpected end of headers detected. Higher level boundary detected or EOF reached.
+WARN  19:06:57,759 | org.apache.james.mime4j.parser.MimeEntity | Invalid header encountered
+WARN  19:06:57,759 | org.apache.james.mime4j.parser.MimeEntity | Body part ended prematurely. Boundary detected in header or EOF reached.
+WARN  19:06:57,764 | org.apache.james.mime4j.parser.MimeEntity | Unexpected end of headers detected. Higher level boundary detected or EOF reached.
+WARN  19:06:57,765 | org.apache.james.mime4j.parser.MimeEntity | Invalid header encountered
+WARN  19:06:57,765 | org.apache.james.mime4j.parser.MimeEntity | Body part ended prematurely. Boundary detected in header or EOF reached.
+WARN  19:06:57,770 | org.apache.james.mime4j.parser.MimeEntity | Unexpected end of headers detected. Higher level boundary detected or EOF reached.
+WARN  19:06:57,770 | org.apache.james.mime4j.parser.MimeEntity | Invalid header encountered
+WARN  19:06:57,770 | org.apache.james.mime4j.parser.MimeEntity | Body part ended prematurely. Boundary detected in header or EOF reached.
+WARN  19:06:57,776 | org.apache.james.mime4j.parser.MimeEntity | Unexpected end of headers detected. Higher level boundary detected or EOF reached.
+WARN  19:06:57,776 | org.apache.james.mime4j.parser.MimeEntity | Invalid header encountered
+WARN  19:06:57,776 | org.apache.james.mime4j.parser.MimeEntity | Body part ended prematurely. Boundary detected in header or EOF reached.
+WARN  19:06:57,782 | org.apache.james.mime4j.parser.MimeEntity | Unexpected end of headers detected. Higher level boundary detected or EOF reached.
+WARN  19:06:57,782 | org.apache.james.mime4j.parser.MimeEntity | Invalid header encountered
+WARN  19:06:57,782 | org.apache.james.mime4j.parser.MimeEntity | Body part ended prematurely. Boundary detected in header or EOF reached.
+WARN  19:06:57,788 | org.apache.james.mime4j.parser.MimeEntity | Unexpected end of headers detected. Higher level boundary detected or EOF reached.
+WARN  19:06:57,788 | org.apache.james.mime4j.parser.MimeEntity | Invalid header encountered
+WARN  19:06:57,788 | org.apache.james.mime4j.parser.MimeEntity | Body part ended prematurely. Boundary detected in header or EOF reached.
+WARN  19:06:57,794 | org.apache.james.mime4j.parser.MimeEntity | Unexpected end of headers detected. Higher level boundary detected or EOF reached.
+WARN  19:06:57,794 | org.apache.james.mime4j.parser.MimeEntity | Invalid header encountered
+WARN  19:06:57,794 | org.apache.james.mime4j.parser.MimeEntity | Body part ended prematurely. Boundary detected in header or EOF reached.
+WARN  19:06:57,800 | org.apache.james.mime4j.parser.MimeEntity | Unexpected end of headers detected. Higher level boundary detected or EOF reached.
+WARN  19:06:57,800 | org.apache.james.mime4j.parser.MimeEntity | Invalid header encountered
+WARN  19:06:57,800 | org.apache.james.mime4j.parser.MimeEntity | Body part ended prematurely. Boundary detected in header or EOF reached.
+WARN  19:06:57,805 | org.apache.james.mime4j.parser.MimeEntity | Unexpected end of headers detected. Higher level boundary detected or EOF reached.
+WARN  19:06:57,805 | org.apache.james.mime4j.parser.MimeEntity | Invalid header encountered
+WARN  19:06:57,806 | org.apache.james.mime4j.parser.MimeEntity | Body part ended prematurely. Boundary detected in header or EOF reached.
+WARN  19:06:57,811 | org.apache.james.mime4j.parser.MimeEntity | Unexpected end of headers detected. Higher level boundary detected or EOF reached.
+WARN  19:06:57,812 | org.apache.james.mime4j.parser.MimeEntity | Invalid header encountered
+WARN  19:06:57,812 | org.apache.james.mime4j.parser.MimeEntity | Body part ended prematurely. Boundary detected in header or EOF reached.
+WARN  19:06:57,817 | org.apache.james.mime4j.parser.MimeEntity | Unexpected end of headers detected. Higher level boundary detected or EOF reached.
+WARN  19:06:57,817 | org.apache.james.mime4j.parser.MimeEntity | Invalid header encountered
+WARN  19:06:57,817 | org.apache.james.mime4j.parser.MimeEntity | Body part ended prematurely. Boundary detected in header or EOF reached.
+WARN  19:06:57,823 | org.apache.james.mime4j.parser.MimeEntity | Unexpected end of headers detected. Higher level boundary detected or EOF reached.
+WARN  19:06:57,823 | org.apache.james.mime4j.parser.MimeEntity | Invalid header encountered
+WARN  19:06:57,823 | org.apache.james.mime4j.parser.MimeEntity | Body part ended prematurely. Boundary detected in header or EOF reached.
+WARN  19:06:57,828 | org.apache.james.mime4j.parser.MimeEntity | Unexpected end of headers detected. Higher level boundary detected or EOF reached.
+WARN  19:06:57,828 | org.apache.james.mime4j.parser.MimeEntity | Invalid header encountered
+WARN  19:06:57,829 | org.apache.james.mime4j.parser.MimeEntity | Body part ended prematurely. Boundary detected in header or EOF reached.
+WARN  19:06:57,834 | org.apache.james.mime4j.parser.MimeEntity | Unexpected end of headers detected. Higher level boundary detected or EOF reached.
+WARN  19:06:57,835 | org.apache.james.mime4j.parser.MimeEntity | Invalid header encountered
+WARN  19:06:57,835 | org.apache.james.mime4j.parser.MimeEntity | Body part ended prematurely. Boundary detected in header or EOF reached.
+WARN  19:06:57,840 | org.apache.james.mime4j.parser.MimeEntity | Unexpected end of headers detected. Higher level boundary detected or EOF reached.
+WARN  19:06:57,840 | org.apache.james.mime4j.parser.MimeEntity | Invalid header encountered
+WARN  19:06:57,840 | org.apache.james.mime4j.parser.MimeEntity | Body part ended prematurely. Boundary detected in header or EOF reached.
+WARN  19:06:57,846 | org.apache.james.mime4j.parser.MimeEntity | Unexpected end of headers detected. Higher level boundary detected or EOF reached.
+WARN  19:06:57,846 | org.apache.james.mime4j.parser.MimeEntity | Invalid header encountered
+WARN  19:06:57,846 | org.apache.james.mime4j.parser.MimeEntity | Body part ended prematurely. Boundary detected in header or EOF reached.
+WARN  19:06:57,851 | org.apache.james.mime4j.parser.MimeEntity | Unexpected end of headers detected. Higher level boundary detected or EOF reached.
+WARN  19:06:57,851 | org.apache.james.mime4j.parser.MimeEntity | Invalid header encountered
+WARN  19:06:57,851 | org.apache.james.mime4j.parser.MimeEntity | Body part ended prematurely. Boundary detected in header or EOF reached.
+WARN  19:06:57,860 | org.apache.james.mime4j.parser.MimeEntity | Unexpected end of headers detected. Higher level boundary detected or EOF reached.
+WARN  19:06:57,860 | org.apache.james.mime4j.parser.MimeEntity | Invalid header encountered
+WARN  19:06:57,860 | org.apache.james.mime4j.parser.MimeEntity | Body part ended prematurely. Boundary detected in header or EOF reached.
+WARN  19:06:57,881 | org.apache.james.mime4j.parser.MimeEntity | Unexpected end of headers detected. Higher level boundary detected or EOF reached.
+WARN  19:06:57,881 | org.apache.james.mime4j.parser.MimeEntity | Invalid header encountered
+WARN  19:06:57,881 | org.apache.james.mime4j.parser.MimeEntity | Body part ended prematurely. Boundary detected in header or EOF reached.
+WARN  19:06:57,887 | org.apache.james.mime4j.parser.MimeEntity | Unexpected end of headers detected. Higher level boundary detected or EOF reached.
+WARN  19:06:57,887 | org.apache.james.mime4j.parser.MimeEntity | Invalid header encountered
+WARN  19:06:57,887 | org.apache.james.mime4j.parser.MimeEntity | Body part ended prematurely. Boundary detected in header or EOF reached.
+WARN  19:06:57,892 | org.apache.james.mime4j.parser.MimeEntity | Unexpected end of headers detected. Higher level boundary detected or EOF reached.
+WARN  19:06:57,893 | org.apache.james.mime4j.parser.MimeEntity | Invalid header encountered
+WARN  19:06:57,893 | org.apache.james.mime4j.parser.MimeEntity | Body part ended prematurely. Boundary detected in header or EOF reached.
+WARN  19:06:57,898 | org.apache.james.mime4j.parser.MimeEntity | Unexpected end of headers detected. Higher level boundary detected or EOF reached.
+WARN  19:06:57,898 | org.apache.james.mime4j.parser.MimeEntity | Invalid header encountered
+WARN  19:06:57,898 | org.apache.james.mime4j.parser.MimeEntity | Body part ended prematurely. Boundary detected in header or EOF reached.
+WARN  19:06:57,904 | org.apache.james.mime4j.parser.MimeEntity | Unexpected end of headers detected. Higher level boundary detected or EOF reached.
+WARN  19:06:57,904 | org.apache.james.mime4j.parser.MimeEntity | Invalid header encountered
+WARN  19:06:57,904 | org.apache.james.mime4j.parser.MimeEntity | Body part ended prematurely. Boundary detected in header or EOF reached.
+INFO  19:06:58,452 | james.pop3server | ID=6997508 Connection established from activate.adobe.com (127.0.0.1)
+INFO  19:07:11,426 | james.imapserver | ID=1288232 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  19:07:11,431 | james.pop3server | ID=6997508 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  19:26:54,466 | james.pop3server | ID=25766872 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  19:36:41,089 | james.imapserver | ID=3681765 Logout client activate.adobe.com (127.0.0.1) because it idled for too long...
+INFO  19:36:41,090 | james.imapserver | ID=3681765 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  19:36:46,091 | james.imapserver | ID=19796980 Logout client activate.adobe.com (127.0.0.1) because it idled for too long...
+INFO  19:36:46,093 | james.imapserver | ID=19796980 Connection closed for activate.adobe.com (127.0.0.1)

@@ -1,0 +1,42 @@
+WARN  08:30:58,163 | james.mailetcontext | The specified postmaster address ( postmaster@localhost ) is not a local address.  This is not necessarily a problem, but it does mean that emails addressed to the postmaster will be routed to another server.  For some configurations this may cause problems.
+INFO  08:30:58,421 | james.mailprocessor | Matcher All instantiated.
+INFO  08:30:58,453 | james.mailprocessor | Mailet PostmasterAlias instantiated.
+INFO  08:30:58,456 | james.mailprocessor | Matcher RelayLimit=30 instantiated.
+INFO  08:30:58,459 | james.mailprocessor | Mailet Null instantiated.
+INFO  08:30:58,462 | james.mailprocessor | Matcher SMTPAuthSuccessful instantiated.
+INFO  08:30:58,466 | james.mailprocessor | Mailet ToProcessor instantiated.
+INFO  08:30:58,469 | james.mailprocessor | Matcher InSpammerBlacklist=dnsbl.njabl.org. instantiated.
+INFO  08:30:58,471 | james.mailprocessor | Mailet ToProcessor instantiated.
+INFO  08:30:58,472 | james.mailprocessor | Matcher All instantiated.
+INFO  08:30:58,473 | james.mailprocessor | Mailet ToProcessor instantiated.
+INFO  08:30:58,774 | james.mailprocessor | Matcher SMTPAuthSuccessful instantiated.
+INFO  08:30:58,776 | james.mailprocessor | Mailet SetMimeHeader instantiated.
+INFO  08:30:58,776 | james.mailprocessor | Matcher All instantiated.
+INFO  08:30:58,808 | james.mailprocessor | Mailet RecipientRewriteTable instantiated.
+INFO  08:30:58,812 | james.mailprocessor | Matcher RecipientIsLocal instantiated.
+INFO  08:30:58,815 | james.mailprocessor | Mailet RecipientToLowerCase instantiated.
+INFO  08:30:58,817 | james.mailprocessor | Matcher RecipientIsLocal instantiated.
+INFO  08:30:58,920 | james.mailprocessor | Mailet LocalDelivery instantiated.
+INFO  08:30:58,923 | james.mailprocessor | Matcher HostIsLocal instantiated.
+INFO  08:30:58,924 | james.mailprocessor | Mailet ToProcessor instantiated.
+INFO  08:30:58,925 | james.mailprocessor | Matcher All instantiated.
+INFO  08:30:58,939 | james.mailetcontext | maxRetries is larger than total number of attempts specified.  Increasing last delayTime with 19 attempts 
+INFO  08:30:58,941 | james.mailetcontext | Delay of 21600000 msecs is now attempted: 20 times
+INFO  08:30:58,949 | james.mailprocessor | Mailet RemoteDelivery instantiated.
+INFO  08:30:59,155 | james.mailprocessor | Matcher All instantiated.
+INFO  08:30:59,199 | james.mailprocessor | Mailet ToRepository instantiated.
+INFO  08:30:59,246 | james.mailprocessor | Matcher All instantiated.
+INFO  08:30:59,255 | james.mailprocessor | Mailet ToRepository instantiated.
+INFO  08:30:59,303 | james.mailprocessor | Matcher All instantiated.
+INFO  08:30:59,312 | james.mailprocessor | Mailet ToRepository instantiated.
+INFO  08:30:59,357 | james.mailprocessor | Matcher All instantiated.
+INFO  08:30:59,366 | james.mailprocessor | Mailet ToRepository instantiated.
+INFO  08:30:59,411 | james.mailprocessor | Matcher All instantiated.
+INFO  08:30:59,454 | james.mailprocessor | Mailet DSNBounce instantiated.
+INFO  08:30:59,504 | james.mailspooler | org.apache.james.mailetcontainer.impl.JamesMailSpooler init...
+INFO  08:30:59,506 | james.mailspooler | org.apache.james.mailetcontainer.impl.JamesMailSpooler uses 20 Thread(s)
+INFO  08:30:59,510 | james.mailspooler | Run org.apache.james.mailetcontainer.impl.JamesMailSpooler: dequeuer-1
+INFO  08:30:59,510 | james.mailspooler | Run org.apache.james.mailetcontainer.impl.JamesMailSpooler: dequeuer-2
+INFO  08:30:59,511 | james.mailspooler | Queue=MailQueue:spool
+INFO  08:30:59,512 | james.mailspooler | Queue=MailQueue:spool
+INFO  08:34:31,530 | james.mailetcontext | Local delivered mail Mail1320721469578-e0f08c58-ec26-4169-ba89-64be366bcc2c sucessfully from nikki@nikki.com to sunil@nikki.org

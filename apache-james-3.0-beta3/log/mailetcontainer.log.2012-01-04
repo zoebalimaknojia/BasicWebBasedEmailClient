@@ -1,0 +1,179 @@
+WARN  20:45:45,971 | james.mailetcontext | The specified postmaster address ( postmaster@localhost ) is not a local address.  This is not necessarily a problem, but it does mean that emails addressed to the postmaster will be routed to another server.  For some configurations this may cause problems.
+INFO  20:45:46,190 | james.mailprocessor | Matcher All instantiated.
+INFO  20:45:46,237 | james.mailprocessor | Mailet PostmasterAlias instantiated.
+INFO  20:45:46,237 | james.mailprocessor | Matcher RelayLimit=30 instantiated.
+INFO  20:45:46,237 | james.mailprocessor | Mailet Null instantiated.
+INFO  20:45:46,252 | james.mailprocessor | Matcher SMTPAuthSuccessful instantiated.
+INFO  20:45:46,252 | james.mailprocessor | Mailet ToProcessor instantiated.
+INFO  20:45:46,252 | james.mailprocessor | Matcher InSpammerBlacklist=dnsbl.njabl.org. instantiated.
+INFO  20:45:46,252 | james.mailprocessor | Mailet ToProcessor instantiated.
+INFO  20:45:46,252 | james.mailprocessor | Matcher All instantiated.
+INFO  20:45:46,252 | james.mailprocessor | Mailet ToProcessor instantiated.
+INFO  20:45:46,565 | james.mailprocessor | Matcher SMTPAuthSuccessful instantiated.
+INFO  20:45:46,581 | james.mailprocessor | Mailet SetMimeHeader instantiated.
+INFO  20:45:46,581 | james.mailprocessor | Matcher All instantiated.
+INFO  20:45:46,581 | james.mailprocessor | Mailet RecipientRewriteTable instantiated.
+INFO  20:45:46,596 | james.mailprocessor | Matcher RecipientIsLocal instantiated.
+INFO  20:45:46,596 | james.mailprocessor | Mailet RecipientToLowerCase instantiated.
+INFO  20:45:46,596 | james.mailprocessor | Matcher RecipientIsLocal instantiated.
+INFO  20:45:46,706 | james.mailprocessor | Mailet LocalDelivery instantiated.
+INFO  20:45:46,706 | james.mailprocessor | Matcher HostIsLocal instantiated.
+INFO  20:45:46,706 | james.mailprocessor | Mailet ToProcessor instantiated.
+INFO  20:45:46,706 | james.mailprocessor | Matcher All instantiated.
+INFO  20:45:46,721 | james.mailetcontext | maxRetries is larger than total number of attempts specified.  Increasing last delayTime with 19 attempts 
+INFO  20:45:46,721 | james.mailetcontext | Delay of 21600000 msecs is now attempted: 20 times
+INFO  20:45:46,721 | james.mailprocessor | Mailet RemoteDelivery instantiated.
+INFO  20:45:46,956 | james.mailprocessor | Matcher All instantiated.
+INFO  20:45:47,018 | james.mailprocessor | Mailet ToRepository instantiated.
+INFO  20:45:47,127 | james.mailprocessor | Matcher All instantiated.
+INFO  20:45:47,127 | james.mailprocessor | Mailet ToRepository instantiated.
+INFO  20:45:47,174 | james.mailprocessor | Matcher All instantiated.
+INFO  20:45:47,190 | james.mailprocessor | Mailet ToRepository instantiated.
+INFO  20:45:47,237 | james.mailprocessor | Matcher All instantiated.
+INFO  20:45:47,252 | james.mailprocessor | Mailet ToRepository instantiated.
+INFO  20:45:47,299 | james.mailprocessor | Matcher All instantiated.
+INFO  20:45:47,331 | james.mailprocessor | Mailet DSNBounce instantiated.
+INFO  20:45:47,377 | james.mailspooler | org.apache.james.mailetcontainer.impl.JamesMailSpooler init...
+INFO  20:45:47,377 | james.mailspooler | org.apache.james.mailetcontainer.impl.JamesMailSpooler uses 20 Thread(s)
+INFO  20:45:47,534 | james.mailspooler | Run org.apache.james.mailetcontainer.impl.JamesMailSpooler: dequeuer-2
+INFO  20:45:47,534 | james.mailspooler | Queue=MailQueue:spool
+INFO  20:45:47,534 | james.mailspooler | Run org.apache.james.mailetcontainer.impl.JamesMailSpooler: dequeuer-1
+INFO  20:45:47,549 | james.mailspooler | Queue=MailQueue:spool
+INFO  20:45:47,956 | james.mailetcontext | Attempting delivery of Mail1325143344329-1b274898-9fa6-4c2d-9b2b-22dc7e63f68b-to-yahoo.co.in to host mx1.mail.in.yahoo.com. at 180.222.96.138 from sunil@nikki.org for addresses [nikki_a1591@yahoo.co.in]
+INFO  20:45:47,971 | james.mailetcontext | Attempting delivery of Mail1325147054646-4636031e-51aa-4c05-8979-d2d2597d24bc-to-yahoo.co.in to host mx1.mail.in.yahoo.com. at 180.222.96.138 from sunil@nikki.org for addresses [nikki_a1591@yahoo.co.in]
+INFO  20:45:47,987 | james.mailetcontext | Attempting delivery of Mail1325147057516-7fd4d258-6210-4231-aa62-5a005fe2842a-to-yahoo.co.in to host mx1.mail.in.yahoo.com. at 180.222.96.138 from sunil@nikki.org for addresses [nikki_a1591@yahoo.co.in]
+INFO  20:45:48,034 | james.mailetcontext | Attempting delivery of Mail1325145605110-6293f1cc-1fe9-47a8-9c49-7fda1856ef1d-to-facebook.com to host smtpin.mx.facebook.com. at 69.171.244.11 from sunil@nikki.org for addresses [nikki.punjabi@facebook.com]
+INFO  20:45:48,065 | james.mailetcontext | Attempting delivery of Mail1325143344329-1b274898-9fa6-4c2d-9b2b-22dc7e63f68b-to-facebook.com to host smtpin.mx.facebook.com. at 69.171.244.11 from sunil@nikki.org for addresses [nikki.punjabi@facebook.com]
+INFO  20:45:48,565 | james.mailetcontext | Could not connect to SMTP host: 180.222.96.138, port: 25, response: 553
+INFO  20:45:48,565 | james.mailetcontext | Could not connect to SMTP host: 180.222.96.138, port: 25, response: 553
+INFO  20:45:48,565 | james.mailetcontext | Temporary exception delivering mail (Mail1325147054646-4636031e-51aa-4c05-8979-d2d2597d24bc-to-yahoo.co.in: 
+INFO  20:45:48,565 | james.mailetcontext | Storing message Mail1325147054646-4636031e-51aa-4c05-8979-d2d2597d24bc-to-yahoo.co.in into outgoing after 5 retries
+INFO  20:45:48,565 | james.mailetcontext | Temporary exception delivering mail (Mail1325147057516-7fd4d258-6210-4231-aa62-5a005fe2842a-to-yahoo.co.in: 
+INFO  20:45:48,565 | james.mailetcontext | Storing message Mail1325147057516-7fd4d258-6210-4231-aa62-5a005fe2842a-to-yahoo.co.in into outgoing after 5 retries
+INFO  20:45:48,627 | james.mailetcontext | Could not connect to SMTP host: 69.171.244.11, port: 25, response: 554
+INFO  20:45:48,627 | james.mailetcontext | Temporary exception delivering mail (Mail1325143344329-1b274898-9fa6-4c2d-9b2b-22dc7e63f68b-to-facebook.com: 
+INFO  20:45:48,627 | james.mailetcontext | Storing message Mail1325143344329-1b274898-9fa6-4c2d-9b2b-22dc7e63f68b-to-facebook.com into outgoing after 6 retries
+INFO  20:45:50,034 | james.mailetcontext | Mail (Mail1325143344329-1b274898-9fa6-4c2d-9b2b-22dc7e63f68b-to-yahoo.co.in) sent successfully to mx1.mail.in.yahoo.com. at 180.222.96.138 from sunil@nikki.org for [nikki_a1591@yahoo.co.in]
+INFO  20:45:50,268 | james.mailetcontext | Temporary exception delivering mail (Mail1325145605110-6293f1cc-1fe9-47a8-9c49-7fda1856ef1d-to-facebook.com. RemoteHost said: 450 4.3.2 INT-T14 http://postmaster.facebook.com/response_codes?ip=182.237.15.61#int Server busy, try again later
+: 
+INFO  20:45:50,268 | james.mailetcontext | Storing message Mail1325145605110-6293f1cc-1fe9-47a8-9c49-7fda1856ef1d-to-facebook.com into outgoing after 5 retries
+INFO  21:12:54,346 | james.mailetcontext | Local delivered mail Mail1325691773807-0853b088-355b-4cee-b34b-f93aea261239 sucessfully from sunil@nikki.org to sunil@nikki.org
+INFO  21:13:11,912 | james.mailetcontext | Local delivered mail Mail1325691791661-04e698d4-dc0d-4337-bcb3-b3be4541ec35 sucessfully from sunil@nikki.org to sunil@nikki.org
+INFO  21:29:40,235 | james.mailetcontext | Local delivered mail Mail1325692779539-bf6d817e-bd89-4c2a-b180-c3b6ab8d20e9 sucessfully from sunil@nikki.org to sunil@nikki.org
+INFO  21:29:54,706 | james.mailetcontext | Local delivered mail Mail1325692794461-abd414fc-be92-4269-90fd-636bb0d3b316 sucessfully from sunil@nikki.org to sunil@nikki.org
+WARN  21:31:06,418 | james.mailetcontext | The specified postmaster address ( postmaster@localhost ) is not a local address.  This is not necessarily a problem, but it does mean that emails addressed to the postmaster will be routed to another server.  For some configurations this may cause problems.
+INFO  21:31:06,497 | james.mailprocessor | Matcher All instantiated.
+INFO  21:31:06,512 | james.mailprocessor | Mailet PostmasterAlias instantiated.
+INFO  21:31:06,528 | james.mailprocessor | Matcher RelayLimit=30 instantiated.
+INFO  21:31:06,528 | james.mailprocessor | Mailet Null instantiated.
+INFO  21:31:06,528 | james.mailprocessor | Matcher SMTPAuthSuccessful instantiated.
+INFO  21:31:06,528 | james.mailprocessor | Mailet ToProcessor instantiated.
+INFO  21:31:06,528 | james.mailprocessor | Matcher InSpammerBlacklist=dnsbl.njabl.org. instantiated.
+INFO  21:31:06,528 | james.mailprocessor | Mailet ToProcessor instantiated.
+INFO  21:31:06,528 | james.mailprocessor | Matcher All instantiated.
+INFO  21:31:06,543 | james.mailprocessor | Mailet ToProcessor instantiated.
+INFO  21:31:06,840 | james.mailprocessor | Matcher SMTPAuthSuccessful instantiated.
+INFO  21:31:06,840 | james.mailprocessor | Mailet SetMimeHeader instantiated.
+INFO  21:31:06,840 | james.mailprocessor | Matcher All instantiated.
+INFO  21:31:06,856 | james.mailprocessor | Mailet RecipientRewriteTable instantiated.
+INFO  21:31:06,856 | james.mailprocessor | Matcher RecipientIsLocal instantiated.
+INFO  21:31:06,856 | james.mailprocessor | Mailet RecipientToLowerCase instantiated.
+INFO  21:31:06,856 | james.mailprocessor | Matcher RecipientIsLocal instantiated.
+INFO  21:31:06,903 | james.mailprocessor | Mailet LocalDelivery instantiated.
+INFO  21:31:06,918 | james.mailprocessor | Matcher HostIsLocal instantiated.
+INFO  21:31:06,918 | james.mailprocessor | Mailet ToProcessor instantiated.
+INFO  21:31:06,918 | james.mailprocessor | Matcher All instantiated.
+INFO  21:31:06,918 | james.mailetcontext | maxRetries is larger than total number of attempts specified.  Increasing last delayTime with 19 attempts 
+INFO  21:31:06,918 | james.mailetcontext | Delay of 21600000 msecs is now attempted: 20 times
+INFO  21:31:06,934 | james.mailprocessor | Mailet RemoteDelivery instantiated.
+INFO  21:31:07,215 | james.mailprocessor | Matcher All instantiated.
+INFO  21:31:07,262 | james.mailprocessor | Mailet ToRepository instantiated.
+INFO  21:31:07,325 | james.mailprocessor | Matcher All instantiated.
+INFO  21:31:07,325 | james.mailprocessor | Mailet ToRepository instantiated.
+INFO  21:31:07,372 | james.mailprocessor | Matcher All instantiated.
+INFO  21:31:07,372 | james.mailprocessor | Mailet ToRepository instantiated.
+INFO  21:31:07,434 | james.mailprocessor | Matcher All instantiated.
+INFO  21:31:07,434 | james.mailprocessor | Mailet ToRepository instantiated.
+INFO  21:31:07,481 | james.mailprocessor | Matcher All instantiated.
+INFO  21:31:07,497 | james.mailprocessor | Mailet DSNBounce instantiated.
+INFO  21:31:07,543 | james.mailspooler | org.apache.james.mailetcontainer.impl.JamesMailSpooler init...
+INFO  21:31:07,543 | james.mailspooler | org.apache.james.mailetcontainer.impl.JamesMailSpooler uses 20 Thread(s)
+INFO  21:31:07,559 | james.mailspooler | Run org.apache.james.mailetcontainer.impl.JamesMailSpooler: dequeuer-1
+INFO  21:31:07,559 | james.mailspooler | Run org.apache.james.mailetcontainer.impl.JamesMailSpooler: dequeuer-2
+INFO  21:31:07,559 | james.mailspooler | Queue=MailQueue:spool
+INFO  21:31:07,559 | james.mailspooler | Queue=MailQueue:spool
+INFO  21:32:10,721 | james.mailetcontext | Local delivered mail Mail1325692930110-bf78e7dc-ac88-43c5-a5e1-d23db10cd39d sucessfully from sunil@nikki.org to sunil@nikki.org
+INFO  21:32:47,899 | james.mailetcontext | Local delivered mail Mail1325692967650-257268bb-4bc0-43eb-80c6-9849a106a379 sucessfully from sunil@nikki.org to sunil@nikki.org
+INFO  21:39:51,518 | james.mailetcontext | Local delivered mail Mail1325693391265-ae096f67-56f8-4569-93fc-55d8f66e76ef sucessfully from sunil@nikki.org to sunil@nikki.org
+INFO  21:40:18,775 | james.mailetcontext | Local delivered mail Mail1325693418513-1c6dc7ec-ad04-40ce-a075-9301b18cfe20 sucessfully from sunil@nikki.org to sunil@nikki.org
+INFO  21:40:40,604 | james.mailetcontext | Local delivered mail Mail1325693440341-0fcf8b20-1162-4d5c-9a94-57c30b0f23c2 sucessfully from sunil@nikki.org to sunil@nikki.org
+INFO  21:40:55,868 | james.mailetcontext | Local delivered mail Mail1325693455625-f6b27527-ae10-44e1-99d9-60bec75d1785 sucessfully from sunil@nikki.org to sunil@nikki.org
+INFO  21:41:33,823 | james.mailetcontext | Local delivered mail Mail1325693493568-b78abc5d-cf77-4479-becf-556072a139f7 sucessfully from sunil@nikki.org to sunil@nikki.org
+INFO  21:42:19,482 | james.mailetcontext | Local delivered mail Mail1325693539228-a52f0bc9-b2aa-485c-b857-86356cb516f4 sucessfully from sunil@nikki.org to sunil@nikki.org
+INFO  21:42:37,436 | james.mailetcontext | Local delivered mail Mail1325693557350-90123bcb-5980-4c12-9c6b-ec1aef328b35 sucessfully from sunil@nikki.org to sunil@nikki.org
+INFO  21:43:07,420 | james.mailetcontext | Local delivered mail Mail1325693587193-f5ee9ee6-83d8-4267-aa5a-2483a2944299 sucessfully from sunil@nikki.org to sunil@nikki.org
+INFO  21:43:32,750 | james.mailetcontext | Local delivered mail Mail1325693612642-6e519900-2a5d-44a3-a0d3-9ab3e0635be6 sucessfully from sunil@nikki.org to sunil@nikki.org
+INFO  22:14:22,723 | james.mailetcontext | Local delivered mail Mail1325695447662-560d1832-3678-4629-97b7-42531e9d4f43 sucessfully from sunil@nikki.org to sunil@nikki.org
+INFO  22:14:48,771 | james.mailetcontext | Local delivered mail Mail1325695473725-319b6b05-2d88-4d5e-896c-d85aee002df2 sucessfully from sunil@nikki.org to sunil@nikki.org
+INFO  22:15:27,357 | james.mailetcontext | Local delivered mail Mail1325695512272-1f090bc0-48cf-48ba-b4e2-9a4f9114b72b sucessfully from sunil@nikki.org to sunil@nikki.org
+INFO  22:16:08,333 | james.mailetcontext | Local delivered mail Mail1325695553272-b1f6b39b-292f-422a-9e0b-20f55f5a97b8 sucessfully from sunil@nikki.org to sunil@nikki.org
+INFO  22:17:15,414 | james.mailetcontext | Local delivered mail Mail1325695611954-4c89d695-c3ba-4e86-bfa2-00e7f22bd038 sucessfully from sunil@nikki.org to sunil@nikki.org
+WARN  23:15:46,135 | james.mailetcontext | The specified postmaster address ( postmaster@localhost ) is not a local address.  This is not necessarily a problem, but it does mean that emails addressed to the postmaster will be routed to another server.  For some configurations this may cause problems.
+INFO  23:15:46,291 | james.mailprocessor | Matcher All instantiated.
+INFO  23:15:46,323 | james.mailprocessor | Mailet PostmasterAlias instantiated.
+INFO  23:15:46,338 | james.mailprocessor | Matcher RelayLimit=30 instantiated.
+INFO  23:15:46,338 | james.mailprocessor | Mailet Null instantiated.
+INFO  23:15:46,338 | james.mailprocessor | Matcher SMTPAuthSuccessful instantiated.
+INFO  23:15:46,338 | james.mailprocessor | Mailet ToProcessor instantiated.
+INFO  23:15:46,354 | james.mailprocessor | Matcher InSpammerBlacklist=dnsbl.njabl.org. instantiated.
+INFO  23:15:46,354 | james.mailprocessor | Mailet ToProcessor instantiated.
+INFO  23:15:46,354 | james.mailprocessor | Matcher All instantiated.
+INFO  23:15:46,354 | james.mailprocessor | Mailet ToProcessor instantiated.
+INFO  23:15:46,682 | james.mailprocessor | Matcher SMTPAuthSuccessful instantiated.
+INFO  23:15:46,682 | james.mailprocessor | Mailet SetMimeHeader instantiated.
+INFO  23:15:46,682 | james.mailprocessor | Matcher All instantiated.
+INFO  23:15:46,698 | james.mailprocessor | Mailet RecipientRewriteTable instantiated.
+INFO  23:15:46,698 | james.mailprocessor | Matcher RecipientIsLocal instantiated.
+INFO  23:15:46,713 | james.mailprocessor | Mailet RecipientToLowerCase instantiated.
+INFO  23:15:46,713 | james.mailprocessor | Matcher RecipientIsLocal instantiated.
+INFO  23:15:46,807 | james.mailprocessor | Mailet LocalDelivery instantiated.
+INFO  23:15:46,807 | james.mailprocessor | Matcher HostIsLocal instantiated.
+INFO  23:15:46,823 | james.mailprocessor | Mailet ToProcessor instantiated.
+INFO  23:15:46,823 | james.mailprocessor | Matcher All instantiated.
+INFO  23:15:46,823 | james.mailetcontext | maxRetries is larger than total number of attempts specified.  Increasing last delayTime with 19 attempts 
+INFO  23:15:46,823 | james.mailetcontext | Delay of 21600000 msecs is now attempted: 20 times
+INFO  23:15:46,838 | james.mailprocessor | Mailet RemoteDelivery instantiated.
+INFO  23:15:47,073 | james.mailprocessor | Matcher All instantiated.
+INFO  23:15:47,307 | james.mailprocessor | Mailet ToRepository instantiated.
+INFO  23:15:47,370 | james.mailprocessor | Matcher All instantiated.
+INFO  23:15:47,385 | james.mailprocessor | Mailet ToRepository instantiated.
+INFO  23:15:47,432 | james.mailprocessor | Matcher All instantiated.
+INFO  23:15:47,432 | james.mailprocessor | Mailet ToRepository instantiated.
+INFO  23:15:47,495 | james.mailprocessor | Matcher All instantiated.
+INFO  23:15:47,495 | james.mailprocessor | Mailet ToRepository instantiated.
+INFO  23:15:47,541 | james.mailprocessor | Matcher All instantiated.
+INFO  23:15:47,557 | james.mailprocessor | Mailet DSNBounce instantiated.
+INFO  23:15:47,604 | james.mailspooler | org.apache.james.mailetcontainer.impl.JamesMailSpooler init...
+INFO  23:15:47,604 | james.mailspooler | org.apache.james.mailetcontainer.impl.JamesMailSpooler uses 20 Thread(s)
+INFO  23:15:47,604 | james.mailspooler | Run org.apache.james.mailetcontainer.impl.JamesMailSpooler: dequeuer-1
+INFO  23:15:47,604 | james.mailspooler | Queue=MailQueue:spool
+INFO  23:15:47,620 | james.mailspooler | Run org.apache.james.mailetcontainer.impl.JamesMailSpooler: dequeuer-2
+INFO  23:15:47,620 | james.mailspooler | Queue=MailQueue:spool
+INFO  23:16:57,006 | james.mailetcontext | No mail server found for: localhost
+INFO  23:16:57,007 | james.mailetcontext | Permanent exception delivering mail (Mail1325699215325-d62771fc-9e6a-4599-b1f5-d2825b2de444-to-localhost: 
+INFO  23:16:58,159 | james.mailetcontext | Local delivered mail Mail1325699215325-d62771fc-9e6a-4599-b1f5-d2825b2de444-to-localhost-!522124 sucessfully from <> to sunil@nikki.org
+INFO  23:17:16,784 | james.mailetcontext | Local delivered mail Mail1325699235229-a9828364-6054-4a80-9201-ffbf31d9e1b6 sucessfully from sunil@nikki.org to sunil@nikki.org
+INFO  23:17:41,391 | james.mailetcontext | Local delivered mail Mail1325699260876-294b2cde-b740-436a-a0e1-801f11988c97 sucessfully from sunil@nikki.org to sunil@nikki.org
+INFO  23:23:06,546 | james.mailetcontext | Local delivered mail Mail1325699586168-dd1c2ef2-1a87-4d35-9436-f876884f6a94 sucessfully from sunil@nikki.org to sunil@nikki.org
+INFO  23:26:51,666 | james.mailetcontext | Local delivered mail Mail1325699810993-5e17cbd0-a82d-4c9d-9288-25a02a2f18b3 sucessfully from sunil@nikki.org to sunil@nikki.org
+INFO  23:27:19,560 | james.mailetcontext | Local delivered mail Mail1325699839190-8cf36cd1-d88e-4852-b78c-5f771d27d136 sucessfully from sunil@nikki.org to sunil@nikki.org
+INFO  23:29:44,160 | james.mailetcontext | Local delivered mail Mail1325699983701-f9b49b11-8b13-4b34-92dc-03741e1c5724 sucessfully from sunil@nikki.org to sunil@nikki.org
+INFO  23:30:25,285 | james.mailetcontext | Local delivered mail Mail1325700024857-78c4fa2f-cef3-4f4d-bb69-c6c7bf9d4aad sucessfully from sunil@nikki.org to sunil@nikki.org
+INFO  23:32:35,894 | james.mailetcontext | Local delivered mail Mail1325700155396-a37617d4-12e7-4617-922f-9faa244c310d sucessfully from sunil@nikki.org to sunil@nikki.org
+INFO  23:33:27,267 | james.mailetcontext | Local delivered mail Mail1325700206750-5338e32d-0dbd-40bc-a08c-87637ee0f5a1 sucessfully from sunil@nikki.org to sunil@nikki.org
+INFO  23:33:41,569 | james.mailetcontext | Local delivered mail Mail1325700221466-bda9872d-acbb-423e-87f3-12fa9acd4a53 sucessfully from sunil@nikki.org to sunil@nikki.org
+INFO  23:36:56,333 | james.mailetcontext | Local delivered mail Mail1325700416276-db6f34a4-dfc9-4a01-ad7a-efa4a6bc0798 sucessfully from sunil@nikki.org to sunil@nikki.org
+INFO  23:44:48,020 | james.mailetcontext | Local delivered mail Mail1325700887918-4c234dc7-ae2f-4d94-8f92-1f4ded9870d3 sucessfully from sunil@nikki.org to sunil@nikki.org
+INFO  23:52:37,473 | james.mailetcontext | Local delivered mail Mail1325701352322-7eaafc80-6506-4723-a1e4-3f060973ea82 sucessfully from sunil@nikki.org to sunil@nikki.org
+INFO  23:52:50,642 | james.mailetcontext | Local delivered mail Mail1325701370588-8eab1ec0-1fbf-48b8-9c14-7a34ab85d5d7 sucessfully from sunil@nikki.org to sunil@nikki.org
+INFO  23:53:20,450 | james.mailetcontext | Local delivered mail Mail1325701400401-406a3dd6-b62e-4685-a873-0aa5874043b1 sucessfully from sunil@nikki.org to sunil@nikki.org

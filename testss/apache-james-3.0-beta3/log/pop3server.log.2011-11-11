@@ -1,0 +1,35 @@
+INFO  07:52:28,613 | james.pop3server | POP3 Service bound to: 0.0.0.0:110
+INFO  07:52:28,613 | james.pop3server | POP3 Service is running on: chandapunjabi
+INFO  07:52:28,613 | james.pop3server | POP3 Service handler hello name is: chandapunjabi
+INFO  07:52:28,613 | james.pop3server | POP3 Service handler connection timeout is: 1200
+INFO  07:52:28,613 | james.pop3server | POP3 Service connection backlog is: 200
+INFO  07:52:28,660 | james.pop3server | Init POP3 Service done
+INFO  08:49:04,841 | james.pop3server | ID=23052540 Connection established from activate.adobe.com (127.0.0.1)
+INFO  08:49:13,792 | james.pop3server | ID=23052540 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  08:49:15,118 | james.pop3server | ID=31139812 Connection established from activate.adobe.com (127.0.0.1)
+INFO  08:49:20,918 | james.pop3server | ID=1099914 Connection established from activate.adobe.com (127.0.0.1)
+INFO  08:49:24,253 | james.pop3server | ID=9141791 Connection established from activate.adobe.com (127.0.0.1)
+INFO  08:49:28,097 | james.pop3server | ID=1099914 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  08:49:28,098 | james.pop3server | ID=9141791 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  08:49:30,022 | james.pop3server | ID=20429849 Connection established from activate.adobe.com (127.0.0.1)
+INFO  08:54:54,932 | james.pop3server | ID=20429849 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  09:09:15,223 | james.pop3server | ID=31139812 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  09:16:37,959 | james.pop3server | ID=23742245 Connection established from activate.adobe.com (127.0.0.1)
+INFO  09:17:05,129 | james.pop3server | ID=1096222 Connection established from activate.adobe.com (127.0.0.1)
+INFO  09:18:05,751 | james.pop3server | ID=10599376 Connection established from activate.adobe.com (127.0.0.1)
+INFO  09:18:22,333 | james.pop3server | ID=10599376 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  09:18:49,621 | james.pop3server | ID=21208172 Connection established from activate.adobe.com (127.0.0.1)
+INFO  09:19:55,173 | james.pop3server | ID=21208172 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  09:19:55,173 | james.pop3server | ID=1096222 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  09:19:55,174 | james.pop3server | ID=23742245 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  09:19:56,646 | james.pop3server | ID=11650204 Connection established from activate.adobe.com (127.0.0.1)
+INFO  09:20:07,189 | james.pop3server | ID=13080162 Connection established from activate.adobe.com (127.0.0.1)
+INFO  09:20:20,270 | james.pop3server | ID=13080162 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  09:20:20,279 | james.pop3server | ID=11650204 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  09:20:22,437 | james.pop3server | ID=23457411 Connection established from activate.adobe.com (127.0.0.1)
+INFO  09:20:39,848 | james.pop3server | ID=23457411 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  09:20:41,965 | james.pop3server | ID=19909928 Connection established from activate.adobe.com (127.0.0.1)
+INFO  09:20:46,679 | james.pop3server | ID=19909928 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  09:21:01,197 | james.pop3server | ID=3077997 Connection established from activate.adobe.com (127.0.0.1)
+INFO  09:21:14,649 | james.pop3server | ID=3077997 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  09:51:47,278 | james.pop3server | ID=5673641 Connection established from activate.adobe.com (127.0.0.1)

@@ -1,0 +1,5 @@
+INFO  09:15:12,420 | james.dnsservice | Autodiscovery is enabled - trying to discover your system's DNS Servers
+INFO  09:15:12,436 | james.dnsservice | Adding autodiscovered server 8.8.8.8
+INFO  09:15:12,436 | james.dnsservice | Adding autodiscovered search path localdomain.
+INFO  09:15:12,436 | james.dnsservice | DNS Server is: 8.8.8.8
+INFO  09:15:12,452 | james.dnsservice | Registered cache, resolver and search paths as DNSJava defaults

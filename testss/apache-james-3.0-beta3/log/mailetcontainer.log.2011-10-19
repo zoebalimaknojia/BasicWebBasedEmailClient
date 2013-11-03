@@ -1,0 +1,59 @@
+WARN  18:30:20,019 | james.mailetcontext | The specified postmaster address ( postmaster@localhost ) is not a local address.  This is not necessarily a problem, but it does mean that emails addressed to the postmaster will be routed to another server.  For some configurations this may cause problems.
+INFO  18:30:20,278 | james.mailprocessor | Matcher All instantiated.
+INFO  18:30:20,309 | james.mailprocessor | Mailet PostmasterAlias instantiated.
+INFO  18:30:20,313 | james.mailprocessor | Matcher RelayLimit=30 instantiated.
+INFO  18:30:20,316 | james.mailprocessor | Mailet Null instantiated.
+INFO  18:30:20,319 | james.mailprocessor | Matcher SMTPAuthSuccessful instantiated.
+INFO  18:30:20,323 | james.mailprocessor | Mailet ToProcessor instantiated.
+INFO  18:30:20,328 | james.mailprocessor | Matcher InSpammerBlacklist=dnsbl.njabl.org. instantiated.
+INFO  18:30:20,330 | james.mailprocessor | Mailet ToProcessor instantiated.
+INFO  18:30:20,331 | james.mailprocessor | Matcher All instantiated.
+INFO  18:30:20,332 | james.mailprocessor | Mailet ToProcessor instantiated.
+INFO  18:30:20,648 | james.mailprocessor | Matcher SMTPAuthSuccessful instantiated.
+INFO  18:30:20,660 | james.mailprocessor | Mailet SetMimeHeader instantiated.
+INFO  18:30:20,661 | james.mailprocessor | Matcher All instantiated.
+INFO  18:30:20,681 | james.mailprocessor | Mailet RecipientRewriteTable instantiated.
+INFO  18:30:20,686 | james.mailprocessor | Matcher RecipientIsLocal instantiated.
+INFO  18:30:20,690 | james.mailprocessor | Mailet RecipientToLowerCase instantiated.
+INFO  18:30:20,692 | james.mailprocessor | Matcher RecipientIsLocal instantiated.
+INFO  18:30:20,801 | james.mailprocessor | Mailet LocalDelivery instantiated.
+INFO  18:30:20,805 | james.mailprocessor | Matcher HostIsLocal instantiated.
+INFO  18:30:20,806 | james.mailprocessor | Mailet ToProcessor instantiated.
+INFO  18:30:20,807 | james.mailprocessor | Matcher All instantiated.
+INFO  18:30:20,829 | james.mailetcontext | maxRetries is larger than total number of attempts specified.  Increasing last delayTime with 19 attempts 
+INFO  18:30:20,831 | james.mailetcontext | Delay of 21600000 msecs is now attempted: 20 times
+INFO  18:30:20,840 | james.mailprocessor | Mailet RemoteDelivery instantiated.
+INFO  18:30:21,069 | james.mailprocessor | Matcher All instantiated.
+INFO  18:30:21,177 | james.mailprocessor | Mailet ToRepository instantiated.
+INFO  18:30:21,249 | james.mailprocessor | Matcher All instantiated.
+INFO  18:30:21,262 | james.mailprocessor | Mailet ToRepository instantiated.
+INFO  18:30:21,322 | james.mailprocessor | Matcher All instantiated.
+INFO  18:30:21,332 | james.mailprocessor | Mailet ToRepository instantiated.
+INFO  18:30:21,342 | james.mailetcontext | Temporary problem looking up mail server for host: yahoo.co.in
+INFO  18:30:21,344 | james.mailetcontext | Temporary problem looking up mail server for host: yahoo.co.in
+INFO  18:30:21,346 | james.mailetcontext | Temporary exception delivering mail (Mail1318948929880-8a268b3b-2ed9-43c8-a556-0a51f04c3bd2-to-yahoo.co.in: 
+INFO  18:30:21,347 | james.mailetcontext | Temporary exception delivering mail (Mail1318948714957-9b8e8224-9343-41d5-ac67-ba0e01d1e5a8-to-yahoo.co.in: 
+INFO  18:30:21,349 | james.mailetcontext | Temporary problem looking up mail server for host: yahoo.co.in
+INFO  18:30:21,350 | james.mailetcontext | Storing message Mail1318948714957-9b8e8224-9343-41d5-ac67-ba0e01d1e5a8-to-yahoo.co.in into outgoing after 4 retries
+INFO  18:30:21,352 | james.mailetcontext | Storing message Mail1318948929880-8a268b3b-2ed9-43c8-a556-0a51f04c3bd2-to-yahoo.co.in into outgoing after 4 retries
+INFO  18:30:21,360 | james.mailetcontext | Temporary exception delivering mail (Mail1318949969880-0ad385d5-889e-49e9-8b95-d5bfe2957268-to-yahoo.co.in: 
+INFO  18:30:21,365 | james.mailetcontext | Storing message Mail1318949969880-0ad385d5-889e-49e9-8b95-d5bfe2957268-to-yahoo.co.in into outgoing after 4 retries
+INFO  18:30:21,394 | james.mailprocessor | Matcher All instantiated.
+INFO  18:30:21,405 | james.mailprocessor | Mailet ToRepository instantiated.
+INFO  18:30:21,460 | james.mailprocessor | Matcher All instantiated.
+INFO  18:30:21,697 | james.mailprocessor | Mailet DSNBounce instantiated.
+INFO  18:30:21,747 | james.mailspooler | org.apache.james.mailetcontainer.impl.JamesMailSpooler init...
+INFO  18:30:21,749 | james.mailspooler | org.apache.james.mailetcontainer.impl.JamesMailSpooler uses 20 Thread(s)
+INFO  18:30:21,753 | james.mailspooler | Run org.apache.james.mailetcontainer.impl.JamesMailSpooler: dequeuer-1
+INFO  18:30:21,753 | james.mailspooler | Run org.apache.james.mailetcontainer.impl.JamesMailSpooler: dequeuer-2
+INFO  18:30:21,754 | james.mailspooler | Queue=MailQueue:spool
+INFO  18:30:21,756 | james.mailspooler | Queue=MailQueue:spool
+INFO  21:30:21,680 | james.mailetcontext | Temporary problem looking up mail server for host: yahoo.co.in
+INFO  21:30:21,680 | james.mailetcontext | Temporary exception delivering mail (Mail1318948714957-9b8e8224-9343-41d5-ac67-ba0e01d1e5a8-to-yahoo.co.in: 
+INFO  21:30:21,680 | james.mailetcontext | Temporary problem looking up mail server for host: yahoo.co.in
+INFO  21:30:21,681 | james.mailetcontext | Temporary problem looking up mail server for host: yahoo.co.in
+INFO  21:30:21,681 | james.mailetcontext | Storing message Mail1318948714957-9b8e8224-9343-41d5-ac67-ba0e01d1e5a8-to-yahoo.co.in into outgoing after 5 retries
+INFO  21:30:21,681 | james.mailetcontext | Temporary exception delivering mail (Mail1318949969880-0ad385d5-889e-49e9-8b95-d5bfe2957268-to-yahoo.co.in: 
+INFO  21:30:21,681 | james.mailetcontext | Temporary exception delivering mail (Mail1318948929880-8a268b3b-2ed9-43c8-a556-0a51f04c3bd2-to-yahoo.co.in: 
+INFO  21:30:21,682 | james.mailetcontext | Storing message Mail1318949969880-0ad385d5-889e-49e9-8b95-d5bfe2957268-to-yahoo.co.in into outgoing after 5 retries
+INFO  21:30:21,682 | james.mailetcontext | Storing message Mail1318948929880-8a268b3b-2ed9-43c8-a556-0a51f04c3bd2-to-yahoo.co.in into outgoing after 5 retries

@@ -1,0 +1,11 @@
+INFO  07:52:28,176 | james.smtpserver | SMTP Service bound to: 0.0.0.0:25
+INFO  07:52:28,176 | james.smtpserver | SMTP Service is running on: chandapunjabi
+INFO  07:52:28,176 | james.smtpserver | SMTP Service handler hello name is: chandapunjabi
+INFO  07:52:28,176 | james.smtpserver | SMTP Service handler connection timeout is: 360
+INFO  07:52:28,176 | james.smtpserver | SMTP Service connection backlog is: 200
+INFO  07:52:28,176 | james.smtpserver | This SMTP server requires authentication.
+INFO  07:52:28,176 | james.smtpserver | No maximum message size is enforced for this server.
+INFO  07:52:28,582 | james.smtpserver | Init SMTP Service done
+INFO  09:51:16,836 | james.smtpserver | ID=8310085 Connection established from activate.adobe.com (127.0.0.1)
+INFO  09:51:16,921 | james.smtpserver | ID=8310085 Successfully spooled mail Mail1320985276854-fa55652f-f4d7-4ced-8226-c42d887c819b from nikki@nikki.com on 127.0.0.1 for [sunil@nikki.org]
+INFO  09:51:16,952 | james.smtpserver | ID=8310085 Connection closed for activate.adobe.com (127.0.0.1)

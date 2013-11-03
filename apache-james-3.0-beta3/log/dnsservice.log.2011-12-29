@@ -1,0 +1,30 @@
+INFO  09:52:04,453 | james.dnsservice | Autodiscovery is enabled - trying to discover your system's DNS Servers
+INFO  09:52:04,468 | james.dnsservice | Adding autodiscovered server 8.8.8.8
+INFO  09:52:04,468 | james.dnsservice | Adding autodiscovered search path localdomain.
+INFO  09:52:04,468 | james.dnsservice | DNS Server is: 8.8.8.8
+INFO  09:52:04,484 | james.dnsservice | Registered cache, resolver and search paths as DNSJava defaults
+INFO  10:36:02,937 | james.dnsservice | Autodiscovery is enabled - trying to discover your system's DNS Servers
+INFO  10:36:02,953 | james.dnsservice | Adding autodiscovered server 8.8.8.8
+INFO  10:36:02,968 | james.dnsservice | Adding autodiscovered search path localdomain.
+INFO  10:36:02,968 | james.dnsservice | DNS Server is: 8.8.8.8
+INFO  10:36:02,968 | james.dnsservice | Registered cache, resolver and search paths as DNSJava defaults
+INFO  13:35:47,375 | james.dnsservice | Autodiscovery is enabled - trying to discover your system's DNS Servers
+INFO  13:35:47,375 | james.dnsservice | Adding autodiscovered server 8.8.8.8
+INFO  13:35:47,382 | james.dnsservice | Adding autodiscovered search path localdomain.
+INFO  13:35:47,382 | james.dnsservice | DNS Server is: 8.8.8.8
+INFO  13:35:47,390 | james.dnsservice | Registered cache, resolver and search paths as DNSJava defaults
+INFO  13:53:54,370 | james.dnsservice | Autodiscovery is enabled - trying to discover your system's DNS Servers
+INFO  13:53:54,377 | james.dnsservice | Adding autodiscovered server 8.8.8.8
+INFO  13:53:54,377 | james.dnsservice | Adding autodiscovered search path localdomain.
+INFO  13:53:54,377 | james.dnsservice | DNS Server is: 8.8.8.8
+INFO  13:53:54,385 | james.dnsservice | Registered cache, resolver and search paths as DNSJava defaults
+INFO  13:57:19,836 | james.dnsservice | Autodiscovery is enabled - trying to discover your system's DNS Servers
+INFO  13:57:19,852 | james.dnsservice | Adding autodiscovered server 8.8.8.8
+INFO  13:57:19,852 | james.dnsservice | Adding autodiscovered search path localdomain.
+INFO  13:57:19,852 | james.dnsservice | DNS Server is: 8.8.8.8
+INFO  13:57:19,852 | james.dnsservice | Registered cache, resolver and search paths as DNSJava defaults
+INFO  13:59:11,234 | james.dnsservice | Autodiscovery is enabled - trying to discover your system's DNS Servers
+INFO  13:59:11,234 | james.dnsservice | Adding autodiscovered server 8.8.8.8
+INFO  13:59:11,234 | james.dnsservice | Adding autodiscovered search path localdomain.
+INFO  13:59:11,250 | james.dnsservice | DNS Server is: 8.8.8.8
+INFO  13:59:11,250 | james.dnsservice | Registered cache, resolver and search paths as DNSJava defaults

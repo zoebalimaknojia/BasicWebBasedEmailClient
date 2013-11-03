@@ -1,0 +1,53 @@
+WARN  19:06:34,990 | james.mailetcontext | The specified postmaster address ( postmaster@localhost ) is not a local address.  This is not necessarily a problem, but it does mean that emails addressed to the postmaster will be routed to another server.  For some configurations this may cause problems.
+INFO  19:06:35,164 | james.mailprocessor | Matcher All instantiated.
+INFO  19:06:35,226 | james.mailprocessor | Mailet PostmasterAlias instantiated.
+INFO  19:06:35,226 | james.mailprocessor | Matcher RelayLimit=30 instantiated.
+INFO  19:06:35,226 | james.mailprocessor | Mailet Null instantiated.
+INFO  19:06:35,226 | james.mailprocessor | Matcher SMTPAuthSuccessful instantiated.
+INFO  19:06:35,242 | james.mailprocessor | Mailet ToProcessor instantiated.
+INFO  19:06:35,242 | james.mailprocessor | Matcher InSpammerBlacklist=dnsbl.njabl.org. instantiated.
+INFO  19:06:35,242 | james.mailprocessor | Mailet ToProcessor instantiated.
+INFO  19:06:35,242 | james.mailprocessor | Matcher All instantiated.
+INFO  19:06:35,242 | james.mailprocessor | Mailet ToProcessor instantiated.
+INFO  19:06:35,523 | james.mailprocessor | Matcher SMTPAuthSuccessful instantiated.
+INFO  19:06:35,523 | james.mailprocessor | Mailet SetMimeHeader instantiated.
+INFO  19:06:35,523 | james.mailprocessor | Matcher All instantiated.
+INFO  19:06:35,538 | james.mailprocessor | Mailet RecipientRewriteTable instantiated.
+INFO  19:06:35,554 | james.mailprocessor | Matcher RecipientIsLocal instantiated.
+INFO  19:06:35,554 | james.mailprocessor | Mailet RecipientToLowerCase instantiated.
+INFO  19:06:35,554 | james.mailprocessor | Matcher RecipientIsLocal instantiated.
+INFO  19:06:35,663 | james.mailprocessor | Mailet LocalDelivery instantiated.
+INFO  19:06:35,663 | james.mailprocessor | Matcher HostIsLocal instantiated.
+INFO  19:06:35,663 | james.mailprocessor | Mailet ToProcessor instantiated.
+INFO  19:06:35,663 | james.mailprocessor | Matcher All instantiated.
+INFO  19:06:35,682 | james.mailetcontext | maxRetries is larger than total number of attempts specified.  Increasing last delayTime with 19 attempts 
+INFO  19:06:35,683 | james.mailetcontext | Delay of 21600000 msecs is now attempted: 20 times
+INFO  19:06:35,690 | james.mailprocessor | Mailet RemoteDelivery instantiated.
+INFO  19:06:35,898 | james.mailprocessor | Matcher All instantiated.
+INFO  19:06:36,010 | james.mailprocessor | Mailet ToRepository instantiated.
+INFO  19:06:36,092 | james.mailprocessor | Matcher All instantiated.
+INFO  19:06:36,096 | james.mailprocessor | Mailet ToRepository instantiated.
+INFO  19:06:36,150 | james.mailprocessor | Matcher All instantiated.
+INFO  19:06:36,156 | james.mailprocessor | Mailet ToRepository instantiated.
+INFO  19:06:36,204 | james.mailprocessor | Matcher All instantiated.
+INFO  19:06:36,213 | james.mailprocessor | Mailet ToRepository instantiated.
+INFO  19:06:36,259 | james.mailprocessor | Matcher All instantiated.
+INFO  19:06:36,464 | james.mailprocessor | Mailet DSNBounce instantiated.
+INFO  19:06:36,512 | james.mailspooler | org.apache.james.mailetcontainer.impl.JamesMailSpooler init...
+INFO  19:06:36,512 | james.mailspooler | org.apache.james.mailetcontainer.impl.JamesMailSpooler uses 20 Thread(s)
+INFO  19:06:36,515 | james.mailspooler | Run org.apache.james.mailetcontainer.impl.JamesMailSpooler: dequeuer-1
+INFO  19:06:36,518 | james.mailspooler | Run org.apache.james.mailetcontainer.impl.JamesMailSpooler: dequeuer-2
+INFO  19:06:36,518 | james.mailspooler | Queue=MailQueue:spool
+INFO  19:06:36,519 | james.mailspooler | Queue=MailQueue:spool
+INFO  19:06:36,530 | james.mailetcontext | Attempting delivery of Mail1318948929880-8a268b3b-2ed9-43c8-a556-0a51f04c3bd2-to-yahoo.co.in to host mx1.mail.in.yahoo.com. at 180.222.96.138 from nikki@nikki.com for addresses [nikki_a1591@yahoo.co.in]
+INFO  19:06:36,543 | james.mailetcontext | Attempting delivery of Mail1318948714957-9b8e8224-9343-41d5-ac67-ba0e01d1e5a8-to-yahoo.co.in to host mx1.mail.in.yahoo.com. at 180.222.96.138 from nikki@nikki.com for addresses [nikki_a1591@yahoo.co.in]
+INFO  19:06:36,545 | james.mailetcontext | Attempting delivery of Mail1318949969880-0ad385d5-889e-49e9-8b95-d5bfe2957268-to-yahoo.co.in to host mx1.mail.in.yahoo.com. at 180.222.96.138 from nikki@nikki.com for addresses [nikki_a1591@yahoo.co.in]
+INFO  19:06:37,583 | james.mailetcontext | Could not connect to SMTP host: 180.222.96.138, port: 25, response: 553
+INFO  19:06:37,585 | james.mailetcontext | Temporary exception delivering mail (Mail1318949969880-0ad385d5-889e-49e9-8b95-d5bfe2957268-to-yahoo.co.in: 
+INFO  19:06:37,587 | james.mailetcontext | Storing message Mail1318949969880-0ad385d5-889e-49e9-8b95-d5bfe2957268-to-yahoo.co.in into outgoing after 8 retries
+INFO  19:06:37,608 | james.mailetcontext | Could not connect to SMTP host: 180.222.96.138, port: 25, response: 553
+INFO  19:06:37,608 | james.mailetcontext | Temporary exception delivering mail (Mail1318948714957-9b8e8224-9343-41d5-ac67-ba0e01d1e5a8-to-yahoo.co.in: 
+INFO  19:06:37,609 | james.mailetcontext | Storing message Mail1318948714957-9b8e8224-9343-41d5-ac67-ba0e01d1e5a8-to-yahoo.co.in into outgoing after 8 retries
+INFO  19:06:37,670 | james.mailetcontext | Could not connect to SMTP host: 180.222.96.138, port: 25, response: 553
+INFO  19:06:37,671 | james.mailetcontext | Temporary exception delivering mail (Mail1318948929880-8a268b3b-2ed9-43c8-a556-0a51f04c3bd2-to-yahoo.co.in: 
+INFO  19:06:37,673 | james.mailetcontext | Storing message Mail1318948929880-8a268b3b-2ed9-43c8-a556-0a51f04c3bd2-to-yahoo.co.in into outgoing after 8 retries

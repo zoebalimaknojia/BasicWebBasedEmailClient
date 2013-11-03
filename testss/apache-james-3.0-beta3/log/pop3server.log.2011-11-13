@@ -1,0 +1,16 @@
+INFO  08:28:51,144 | james.pop3server | POP3 Service bound to: 0.0.0.0:110
+INFO  08:28:51,160 | james.pop3server | POP3 Service is running on: chandapunjabi
+INFO  08:28:51,160 | james.pop3server | POP3 Service handler hello name is: chandapunjabi
+INFO  08:28:51,160 | james.pop3server | POP3 Service handler connection timeout is: 1200
+INFO  08:28:51,160 | james.pop3server | POP3 Service connection backlog is: 200
+INFO  08:28:51,222 | james.pop3server | Init POP3 Service done
+INFO  17:43:12,120 | james.pop3server | POP3 Service bound to: 0.0.0.0:110
+INFO  17:43:12,122 | james.pop3server | POP3 Service is running on: chandapunjabi
+INFO  17:43:12,124 | james.pop3server | POP3 Service handler hello name is: chandapunjabi
+INFO  17:43:12,126 | james.pop3server | POP3 Service handler connection timeout is: 1200
+INFO  17:43:12,127 | james.pop3server | POP3 Service connection backlog is: 200
+INFO  17:43:12,190 | james.pop3server | Init POP3 Service done
+INFO  21:04:25,214 | james.pop3server | ID=22017627 Connection established from activate.adobe.com (127.0.0.1)
+INFO  21:04:26,436 | james.pop3server | ID=22017627 Connection closed for activate.adobe.com (127.0.0.1)
+INFO  21:04:28,884 | james.pop3server | ID=11640519 Connection established from activate.adobe.com (127.0.0.1)
+INFO  21:05:12,877 | james.pop3server | ID=26648157 Connection established from activate.adobe.com (127.0.0.1)
